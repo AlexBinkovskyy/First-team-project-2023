@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/FSON95-BlendedTeam-5/",
+    "build": "vite build --base=/First-team-project-2023/",
     "preview": "vite preview"
   },
   "devDependencies": {
