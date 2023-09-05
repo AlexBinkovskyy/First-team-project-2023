@@ -4,16 +4,16 @@
   | default @import url()
   |============================
 */
-@import url("./reset.css");
-@import url("./header.css");
-@import url("./hero.css");
-@import url("./advertisement.css");
-@import url("./about-us.css");
-@import url("./our-courses.css");
-@import url("./our-mentors.css");
-@import url("./sign-up.css");
-@import url("./reviews.css");
-@import url("./footer.css");
+@import url("reset.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("advertisement.css");
+@import url("about-us.css");
+@import url("our-courses.css");
+@import url("our-mentors.css");
+@import url("sign-up.css");
+@import url("reviews.css");
+@import url("footer.css");
 
 :root {
   font-family: 'DM Sans', sans-serif;
