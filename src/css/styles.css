@@ -31,3 +31,15 @@
   --fill-brown-active: #BEA69E;
   --fill-white: #FFF;
 }
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+p {
+  display: block;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
