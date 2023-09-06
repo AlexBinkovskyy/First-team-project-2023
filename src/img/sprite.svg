@@ -1,0 +1,29 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow_right-icon" viewBox="0 0 32 32">
+<path d="M22.222 8l9.778 7.698-9.778 7.698v-6.365h-22.222v-2.667h22.222v-6.365z"></path>
+</symbol>
+<symbol id="icon-arrow_upper-right-icon" viewBox="0 0 32 32">
+<path d="M15.321 7.144l11.195-0.349-2.288 10.964-3.682-4.388-15.321 12.856-1.543-1.839 15.321-12.856-3.682-4.388z"></path>
+</symbol>
+<symbol id="icon-burger-icon" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M6.070 8.351h24.73"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M6.070 21.927h24.73"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M13.722 15.139h17.078"></path>
+</symbol>
+<symbol id="icon-camera-icon" viewBox="0 0 32 32">
+<path d="M21 17c0 1.326-0.527 2.598-1.464 3.536s-2.209 1.464-3.536 1.464-2.598-0.527-3.536-1.464c-0.938-0.938-1.464-2.21-1.464-3.536s0.527-2.598 1.464-3.536c0.938-0.938 2.209-1.464 3.536-1.464s2.598 0.527 3.536 1.464c0.938 0.938 1.464 2.209 1.464 3.536z"></path>
+<path d="M4 8c-1.061 0-2.078 0.421-2.828 1.172s-1.172 1.768-1.172 2.828v12c0 1.061 0.421 2.078 1.172 2.828s1.768 1.172 2.828 1.172h24c1.061 0 2.078-0.421 2.828-1.172s1.172-1.768 1.172-2.828v-12c0-1.061-0.421-2.078-1.172-2.828s-1.768-1.172-2.828-1.172h-2.344c-1.061-0-2.078-0.422-2.828-1.172l-1.656-1.656c-0.75-0.75-1.767-1.172-2.828-1.172h-4.688c-1.061 0-2.078 0.422-2.828 1.172l-1.656 1.656c-0.75 0.75-1.767 1.172-2.828 1.172h-2.344zM5 12c-0.265 0-0.52-0.105-0.707-0.293s-0.293-0.442-0.293-0.707c0-0.265 0.105-0.52 0.293-0.707s0.442-0.293 0.707-0.293c0.265 0 0.52 0.105 0.707 0.293s0.293 0.442 0.293 0.707c0 0.265-0.105 0.52-0.293 0.707s-0.442 0.293-0.707 0.293zM23 17c0 1.857-0.737 3.637-2.050 4.95s-3.093 2.050-4.95 2.050c-1.857 0-3.637-0.737-4.95-2.050s-2.050-3.093-2.050-4.95c0-1.857 0.738-3.637 2.050-4.95s3.093-2.050 4.95-2.050c1.857 0 3.637 0.738 4.95 2.050s2.050 3.093 2.050 4.95z"></path>
+</symbol>
+<symbol id="icon-mobile-menu-close-ico" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-star-empty-icon" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+</symbol>
+<symbol id="icon-star-full-icon" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 3.2l3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681-7.91-4.101-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274 3.955-7.899z"></path>
+</symbol>
+</defs>
+</svg>
