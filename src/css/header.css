@@ -1,0 +1,28 @@
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Header
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.header {
+  color: #fff;
+}
+.header-container {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-nav-list {
+}
+.header-nav-list-item {
+}
+.header-nav-list-link {
+}
+.header-burger-menu-button {
+  background-color: transparent;
+}
+.header-burger-menu-button-icon {
+  stroke: #fff;
+}
+.header-sign-up-button {
+}
