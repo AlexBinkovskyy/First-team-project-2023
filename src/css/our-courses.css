@@ -17,3 +17,54 @@ body {
 .main-name-courses {
   color: #bea69e;
 }
+ol {
+  list-style-type: decimal-leading-zero;
+  margin: 0px;
+  padding: 0px;
+}
+/* Test */
+
+/* Test */
+.course-main-p {
+  padding-bottom: 40px;
+}
+.course-list-i {
+  list-style-position: inside;
+  height: 398px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  padding-left: 28px;
+  padding-top: 28px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.course-list-i:last-child {
+  margin-bottom: 80px;
+}
+.content-cards {
+  padding-top: 48px;
+}
+.list-course-name {
+  font-size: 28px;
+  font-weight: 500;
+  width: 279px;
+  height: 64px;
+  color: #fff;
+  margin-bottom: 164px;
+  line-height: 32px;
+}
+.list-course-name-last {
+  width: 275px;
+}
+.list-course-p {
+  width: 279px;
+  height: 54px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
