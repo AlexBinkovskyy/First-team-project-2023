@@ -1,0 +1,19 @@
+body {
+  min-width: 200px;
+  max-width: 375px;
+}
+.courses {
+  color: #fff;
+}
+.main-name {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+}
+.main-name-courses {
+  color: #bea69e;
+}
