@@ -1,0 +1,11 @@
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --fill-black: #121212;
+  --fill-grey: #1d1d1d;
+  --fill-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --fill-brown-active: #bea69e;
+  --fill-white: #fff;
+}
