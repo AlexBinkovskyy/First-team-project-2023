@@ -25,5 +25,8 @@
 <symbol id="icon-star-full-icon" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 3.2l3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681-7.91-4.101-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274 3.955-7.899z"></path>
 </symbol>
+<symbol id="icon-arrow-narrow-up-right" viewBox="0 0 32 32">
+<path fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" style="stroke:var(--color1, #777)"/>
+</symbol>
 </defs>
 </svg>
