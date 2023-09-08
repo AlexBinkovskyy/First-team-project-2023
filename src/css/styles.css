@@ -48,30 +48,6 @@ h1 {
   }
 }
 
-/* Advertisement */
-/* h2 {
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.14;
-  letter-spacing: -0.56px;
-  text-transform: uppercase;
-}
-@media only screen and (min-width: 768px) {
-  h2 {
-    font-size: 40px;
-    line-height: 1.25;
-    letter-spacing: -0.8px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  h2 {
-    font-size: 59px;
-    line-height: 1.08;
-    letter-spacing: -1.18px;
-  }
-} */
-
 h2 {
   font-size: 28px;
   font-style: normal;
