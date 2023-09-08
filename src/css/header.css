@@ -1,28 +1,88 @@
+.btn {
+  height: 60px;
+  padding: 0 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-dark {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2em; 
+
+  border-radius: 12px;
+  background: #1D1D1D;
+}
+.btn-light {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background-color: #fff;
+
+  line-height: 1.55em;
+  border-radius: 12px;
+}
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Header
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
 .header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+
   color: #fff;
 }
 .header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
 .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--fill-black);
+
+  height: 60px;
+  padding: 0 50px;
 }
 .header-logo {
+  font-weight: 700;
 }
 .header-nav-list {
+  display: flex;
+  gap: 24px;
 }
 .header-nav-list-item {
 }
 .header-nav-list-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
 .header-burger-menu-button {
   background-color: transparent;
+  display: none;
 }
 .header-burger-menu-button-icon {
   stroke: #fff;
 }
 .header-sign-up-button {
+  width: 238px;
 }
