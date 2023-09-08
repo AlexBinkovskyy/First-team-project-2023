@@ -1,0 +1,126 @@
+.mentors-container.container {
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-container.container {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .mentors-container.container {
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 374.98px) {
+  .mentors-container {
+    min-width: 320px;
+  }
+}
+
+.mentors-title {
+  color: var(--fill-white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    line-height: 1.13;
+    margin-bottom: 50px;
+  }
+}
+
+.mentors-title-item {
+  color: var(--fill-brown-active);
+}
+
+.mentors-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-list {
+    max-width: 476px;
+    justify-content: flex-start;
+    margin: 50px auto 0;
+    gap: 93px 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-list {
+    max-width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 93px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-list {
+    gap: 113px;
+  }
+}
+
+.mentors-cards {
+  width: 185px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-cards {
+    width: max-content;
+  }
+}
+
+.mentors-photo {
+  margin: 0 auto 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-photo {
+    margin: 0 0 16px 0;
+    align-items: flex-start;
+  }
+}
+
+.mentors-content-title {
+  color: var(--fill-white);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-content-title {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+}
+
+.mentors-content-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-content-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
