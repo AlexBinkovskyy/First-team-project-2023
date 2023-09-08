@@ -1,3 +1,61 @@
-<div class="signup container">
-
+<div class="signup container" id="sign-up">
+  <div class="signup-box">
+    <h2 class="signup-title">Sign <span class="signup-title-up">Up</span></h2>
+    <p class="signup-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form class="signup-form" name="signup-form">
+      <div class="signup-form-item">
+        <input
+          class="signup-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          required
+          minlength="3"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="signup-form-item">
+        <input
+          class="signup-form-input"
+          type="text"
+          name="email"
+          id="email"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="signup-form-item">
+        <textarea
+          class="signup-message"
+          name="user-comment"
+          id="user-comment"
+          rows="5"
+          placeholder="Message"
+        ></textarea>
+      </div>
+      <button class="submit-btn" type="submit">Send</button>
+    </form>
+    <p class="signup-policy">
+      By clicking on &#8220;Send&#8221; button, you agree to our
+      <a class="signup-policy-link" href="">Privacy Policy</a>,<br />
+      and allow Promodo to use this information for marketing purposes.
+    </p>
+  </div>
+  <div class="signup-pics">
+    <img
+      src="./img/signup-lense@1x.png"
+      alt="camera lense"
+      srcset="./img/signup-lense@1x.png 1x, ./img/signup-lense@2x.png 2x"
+      width="150"
+    />
+    <img
+      src="./img/signup-camera@1x.png"
+      alt="black camera"
+      srcset="./img/signup-camera@1x.png 1x, ./img/signup-camera@2x.png 2x"
+      width="254"
+    />
+  </div>
 </div>
