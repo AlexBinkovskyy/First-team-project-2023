@@ -1,9 +1,17 @@
+/*
+▮▮▯▯⁘⁘⁘⁘⁘   Пропозиція перенести ці стилі до глобальних для перевикористання   ⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮  Потрібно задавати кнопці, для створення шаблону кнопки ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
 .btn {
   height: 60px;
-  padding: 0 17px;
+  padding: 16px 17px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
 
   border: 0px solid transparent;
 }
@@ -28,25 +36,34 @@
   font-weight: 700;
   text-transform: uppercase;
 
-  background-color: #fff;
+  background-color: var(--white);
 
   line-height: 1.55em;
   border-radius: 12px;
 }
 .btn-light:hover {
-  background-color: var(--fill-grey);
-  color: var(--fill-brown-active);
+  background-color: var(--grey);
+  color: var(--brown-active);
 }
+/*
+  Я розумію, що багато хто вже написав 
+  велику кількість коду і не дуже хочеться 
+  його переробляти, тому це не більше 
+  ніж пропозиція.😊
+*/
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   Header
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
-header {
+.header-content{
+  height: 80px;
+}
+.header {
   position: fixed;
-  z-index: 100;
   top: 20px;
   width: 100%;
+  z-index: 1000;
 }
 .header-container {
   display: flex;
@@ -63,7 +80,7 @@ header {
 
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: var(--fill-black);
+  background: var(--black);
 }
 @media screen and (min-width: 1280px) {
   .header-nav-wraper {
@@ -82,6 +99,10 @@ header {
 .header-logo {
   font-size: 17px;
   font-weight: 700;
+
+  margin-bottom: -5px;
+
+  fill: var(--white);
 }
 .header-nav-list {
   display: flex;
@@ -112,7 +133,7 @@ header {
   padding: 20px 0;
 }
 .header-nav-list-link:hover {
-  color: var(--fill-brown-active);
+  color: var(--brown-active);
 }
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
@@ -127,7 +148,7 @@ header {
   margin-right: 8px;
   border-radius: 50%;
 
-  background-color: var(--fill-grey);
+  background-color: var(--grey);
   opacity: 0.4;
 }
 @media screen and (min-width: 768px) {
@@ -136,7 +157,7 @@ header {
   }
 }
 .header-mobile-sign-up-button-icon {
-  fill: var(--fill-brown-active);
+  fill: var(--brown-active);
 }
 .header-mobile-sign-up-button:hover {
   opacity: 1;
@@ -164,7 +185,7 @@ header {
   stroke: #fff;
 }
 .header-burger-menu-button:hover .header-burger-menu-button-icon {
-  stroke: var(--fill-brown-active);
+  stroke: var(--brown-active);
 }
 
 .header-sign-up-button {
