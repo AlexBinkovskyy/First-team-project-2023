@@ -1,0 +1,51 @@
+.menu-container {
+    width: 218px;
+    height: 100vh;
+    padding: 20px;
+    margin-left: auto;
+    background-color: var(--brown-text);
+    background-image: url(../img/mobile-menu-camera@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .menu-container {
+      background-image: url(../img/mobile-menu-camera@2x.png);
+      background-size: contain;
+    }
+  }
+  
+  .mob-menu-img {
+    width: 329px;
+    height: 218px;
+  }
+  
+  .js-menu-container {
+  }
+  
+  .menu-toggle {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 146px;
+    margin-bottom: 128px;
+    
+  }
+  
+  .js-close-menu {
+  }
+  
+  .mobile-btn {
+    stroke: var(--black);
+    display: block;
+  }
+  
+  .list {
+  }
+  
+  .list-item {
+  }
+  

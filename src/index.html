@@ -7,10 +7,8 @@
     <title>Focus.Frame</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -20,21 +18,29 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <load src="partials/header.html" />
-    </header>
-    <main>
-      <load src="partials/hero.html" />
-      <load src="partials/advertisement.html" />
-      <load src="partials/about-us.html" />
-      <load src="partials/our-courses.html" />
-      <load src="partials/our-mentors.html" />
-      <load src="partials/sign-up.html" />
-      <load src="partials/reviews.html" />
-    </main>
+    <section class="header-hero-bckgrnd">
+      <div class="header-content">
+        <load src="partials/header.html" />
+      </div>
+      <div class="hero-content">
+        <load src="partials/hero.html" />
+      </div>
+    </section>
+
+    <load src="partials/advertisement.html" />
+    <load src="partials/about-us.html" />
+    <load src="partials/our-courses.html" />
+    <load src="partials/our-mentors.html" />
+    <load src="partials/sign-up.html" />
+    <load src="partials/reviews.html" />
+    
     <footer>
       <load src="partials/footer.html" />
     </footer>
-    <script type="module" src="/main.js"></script>
+    <load src="partials/mobile-menu.html"/>
+
+    <!-- Scripts -->
+    <script type="module" src="../src/js/main.js"></script>
+    <script defer src="../src/js/mobile-menu.js"></script>
   </body>
 </html>
