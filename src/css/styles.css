@@ -35,10 +35,10 @@ body {
 }
 
 @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .header-hero-bckgrnd {
-        background-image: url(../img/header-hero-bg-desktop@2x.png);
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-hero-bckgrnd {
+    background-image: url(../img/header-hero-bg-desktop@2x.png);
   }
 }
 
@@ -105,7 +105,6 @@ p {
     line-height: 1.25;
     letter-spacing: -0.32px;
   }
-
 }
 
 .container {
@@ -138,4 +137,49 @@ p {
   .container {
     width: 1440px;
   }
+}
+
+/**
+  |============================
+  | Mobile menu
+  |============================
+*/
+
+.menu-container {
+  width: 218px;
+  height: 100vh;
+  padding: 20px;
+  background-color: var(--brown-text);
+  background-image: url(../img/mobile-menu-camera@1x.png);
+  /* background-size: auto; */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.mob-menu-img {
+  width: 329px;
+  height: 218px;
+}
+
+.js-menu-container {
+}
+
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  
+}
+
+.js-close-menu {
+}
+
+.mobile-btn {
+  stroke: var(--black);
+}
+
+.list {
+}
+
+.list-item {
 }
