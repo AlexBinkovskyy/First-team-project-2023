@@ -1,14 +1,14 @@
-<div class="signup container">
-  <div class="sign-up-box">
-    <h2 class="sign-up-title">Sign Up</h2>
-    <p class="sign-up-text">
+<div class="signup container" id="sign-up">
+  <div class="signup-box">
+    <h2 class="signup-title">Sign <span class="signup-title-up">Up</span></h2>
+    <p class="signup-text">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
     </p>
-    <form class="sign-up-form" name="sign-up-form">
-      <div class="sign-up-form-item">
+    <form class="signup-form" name="signup-form">
+      <div class="signup-form-item">
         <input
-          class="sign-up-form-input"
+          class="signup-form-input"
           type="text"
           name="user-name"
           id="user-name"
@@ -17,9 +17,9 @@
           placeholder="Enter your name"
         />
       </div>
-      <div class="sign-up-form-item">
+      <div class="signup-form-item">
         <input
-          class="sign-up-form-input"
+          class="signup-form-input"
           type="text"
           name="email"
           id="email"
@@ -27,35 +27,41 @@
           placeholder="Enter your email"
         />
       </div>
-      <div class="sign-up-form-item">
+      <div class="signup-form-item">
         <textarea
-          class="sign-up-message"
+          class="signup-message"
           name="user-comment"
           id="user-comment"
-          rows="6"
+          rows="5"
           placeholder="Message"
         ></textarea>
       </div>
       <button class="submit-btn" type="submit">Send</button>
     </form>
-    <p class="policy">
-      By clicking on &#10077;Send&#10078; button, you agree to our
-      <a class="policy-link" href="">Privacy Policy</a>, and allow Promodo to
-      use this information for marketing purposes.
+    <p class="signup-policy">
+      By clicking on &#8220;Send&#8221; button, you agree to our
+      <a class="signup-policy-link" href="">Privacy Policy</a>,<br />
+      and allow Promodo to use this information for marketing purposes.
     </p>
   </div>
-  <div class="sign-up-img">
-    <img
-      src="./img/sign-up-lense@1x.png"
-      alt="camera lense"
-      srcset="./img/sign-up-lense@1x.png 1x, ./img/sign-up-lense@2x.png 2x"
-      width="150"
-    />
-    <img
-      src="./img/sign-up-camera@1x.png"
-      alt="black camera"
-      srcset="./img/sign-up-camera@1x.png 1x, ./img/sign-up-camera@2x.png 2x"
-      width="254"
-    />
+  <div class="signup-pics">
+    <div class="signup-pics-left">
+      <img
+        class="signup-lense"
+        src="./img/sign-up-lense@1x.png"
+        alt="camera lense"
+        srcset="./img/sign-up-lense@1x.png 1x, ./img/sign-up-lense@2x.png 2x"
+        width="150"
+        height="142"
+      />
+    </div>
+    <div class="signup-pics-right">
+      <img
+        src="./img/sign-up-camera@1x.png"
+        alt="black camera"
+        srcset="./img/sign-up-camera@1x.png 1x, ./img/sign-up-camera@2x.png 2x"
+        width="254"
+      />
+    </div>
   </div>
 </div>

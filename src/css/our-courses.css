@@ -1,0 +1,149 @@
+/* Якір на sign upbef
+id="sign-up"
+*/
+.courses {
+  color: #fff;
+}
+.main-name {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+  width: 155px;
+}
+.main-name-courses {
+  color: #bea69e;
+}
+ol {
+  list-style-type: decimal-leading-zero;
+  margin: 0px;
+  padding: 0px;
+}
+.course-main-p {
+  padding-bottom: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+.course-list-i {
+  list-style-position: inside;
+  height: 398px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  padding-left: 28px;
+  padding-top: 28px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+.course-list-i:last-child {
+  margin-bottom: 80px;
+}
+.content-cards {
+  padding-top: 42px;
+}
+.list-course-name {
+  font-size: 28px;
+  font-weight: 500;
+  width: 279px;
+  height: 64px;
+  color: #fff;
+  margin-bottom: 164px;
+  line-height: 32px;
+}
+.list-course-name-last {
+  width: 275px;
+}
+.list-course-p {
+  width: 279px;
+  height: 54px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.anchor {
+  /* fill: #777777;
+  position: relative;
+  left: 233px;
+  top: 22px;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  cursor: pointer; */
+  /* height: 32px;
+  width: 32px;
+  padding: 6px; 
+*/
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .main-name {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    width: 265px;
+    margin-right: 58px;
+  }
+  .before-course {
+    display: flex;
+  }
+  .course-main-p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    width: 381px;
+    line-height: 20px;
+  }
+  .course-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .content-cards {
+    padding-top: 46px;
+  }
+  .course-list-i {
+    margin-bottom: 0;
+    width: 342px;
+    height: 452px;
+    padding-top: 32px;
+    padding-left: 32px;
+  }
+  .list-course-p {
+    width: 278px;
+    height: 100%;
+    margin-bottom: 32px;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+    padding-bottom: 32px;
+  }
+  .list-course-name {
+    width: 265px;
+    margin-bottom: 180px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .main-name {
+    margin-right: 410px;
+    margin-bottom: 76px;
+  }
+  .course-main-p {
+    width: 405px;
+  }
+  .course-list-i {
+    width: 346.67px;
+  }
+  .content-cards {
+    padding-top: 42px;
+  }
+}
