@@ -21,17 +21,11 @@
 
 .mentors-title {
   color: var(--white);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .mentors-title {
-    font-size: 48px;
-    line-height: 1.13;
     margin-bottom: 50px;
   }
 }
@@ -40,20 +34,16 @@
   color: var(--brown-text);
 }
 
-.mentors-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
 @media only screen and (min-width: 768px) {
   .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     max-width: 476px;
     justify-content: flex-start;
-    margin: 50px auto 0;
-    gap: 93px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 92px 100px;
   }
 }
 
@@ -62,18 +52,25 @@
     max-width: max-content;
     justify-content: center;
     margin: 0 auto;
-    gap: 93px;
+    gap: 92px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .mentors-list {
-    gap: 113px;
+    gap: 112px;
   }
 }
 
-.mentors-cards {
-  width: 185px;
+@media only screen and (max-width: 767.98px) {
+  .mentors-cards:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .mentors-cards {
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -95,17 +92,11 @@
 
 .mentors-content-title {
   color: var(--white);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
   margin-bottom: 4px;
 }
 
 @media only screen and (min-width: 768px) {
   .mentors-content-title {
-    font-size: 28px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
   }
 }
@@ -115,7 +106,6 @@
   text-align: center;
   font-size: 12px;
   line-height: 1.33;
-  letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
