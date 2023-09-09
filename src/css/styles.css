@@ -35,10 +35,10 @@ body {
 }
 
 @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .header-hero-bckgrnd {
-        background-image: url(../img/header-hero-bg-desktop@2x.png);
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-hero-bckgrnd {
+    background-image: url(../img/header-hero-bg-desktop@2x.png);
   }
 }
 
@@ -47,19 +47,17 @@ h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: -1.6px;
+  letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -2.4px;
   }
 }
 @media only screen and (min-width: 1280px) {
   h1 {
     font-size: 64px;
-    letter-spacing: -2.56px;
   }
 }
 
@@ -67,14 +65,13 @@ h2 {
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 14;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
   h2 {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -1.92px;
   }
 }
 
@@ -97,15 +94,13 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   p {
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.32px;
   }
-
 }
 
 .container {
