@@ -11,7 +11,7 @@
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -1.12px;
-  color: var(--fill-white, #fff);
+  color: var(--fill-white);
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,7 +23,7 @@
   }
 }
 .word {
-  color: var(--fill-brown-active, #bea69e);
+  color: var(--fill-brown-active);
 }
 @media only screen and (min-width: 1280px) {
   .about-desktop {
@@ -61,7 +61,7 @@
   }
 }
 
-/* .about-us-item {
+/* .about-item {
   } */
 .about-item:not(:last-child) {
   margin-bottom: 20px;
@@ -74,7 +74,7 @@
 }
 
 .about-text {
-  color: var(--fill-white, #fff);
+  color: var(--fill-white);
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
