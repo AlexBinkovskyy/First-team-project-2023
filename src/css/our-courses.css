@@ -1,7 +1,6 @@
-/* body {
-  min-width: 200px;
-  max-width: 375px;
-} */
+/* Якір на sign upbef
+id="sign-up"
+*/
 .courses {
   color: #fff;
 }
@@ -48,7 +47,7 @@ ol {
   margin-bottom: 80px;
 }
 .content-cards {
-  padding-top: 48px;
+  padding-top: 42px;
 }
 .list-course-name {
   font-size: 28px;
@@ -81,7 +80,8 @@ ol {
   cursor: pointer; */
   /* height: 32px;
   width: 32px;
-  padding: 6px; */
+  padding: 6px; 
+*/
   display: none;
 }
 @media only screen and (min-width: 768px) {
@@ -97,8 +97,9 @@ ol {
   }
   .course-main-p {
     font-size: 16px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     width: 381px;
+    line-height: 20px;
   }
   .course-list {
     display: flex;
@@ -107,21 +108,42 @@ ol {
     column-gap: 20px;
     row-gap: 20px;
   }
+  .content-cards {
+    padding-top: 46px;
+  }
   .course-list-i {
     margin-bottom: 0;
     width: 342px;
     height: 452px;
+    padding-top: 32px;
+    padding-left: 32px;
   }
   .list-course-p {
     width: 278px;
-    height: 80px;
+    height: 100%;
     margin-bottom: 32px;
     font-size: 16px;
     letter-spacing: -0.32px;
     line-height: 20px;
+    padding-bottom: 32px;
   }
   .list-course-name {
     width: 265px;
     margin-bottom: 180px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .main-name {
+    margin-right: 410px;
+    margin-bottom: 76px;
+  }
+  .course-main-p {
+    width: 405px;
+  }
+  .course-list-i {
+    width: 346.67px;
+  }
+  .content-cards {
+    padding-top: 42px;
   }
 }
