@@ -1,9 +1,10 @@
 /**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
+|============================
+| include css partials with
+| default @import url()
+|============================
 */
+
 @import url('reset.css');
 @import url('variables.css');
 @import url('header.css');
@@ -15,6 +16,7 @@
 @import url('sign-up.css');
 @import url('reviews.css');
 @import url('footer.css');
+@import url('mobile-menu.css');
 
 :root {
   font-synthesis: none;
@@ -35,10 +37,10 @@ body {
 }
 
 @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .header-hero-bckgrnd {
-        background-image: url(../img/header-hero-bg-desktop@2x.png);
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-hero-bckgrnd {
+    background-image: url(../img/header-hero-bg-desktop@2x.png);
   }
 }
 
@@ -105,7 +107,11 @@ p {
     line-height: 1.25;
     letter-spacing: -0.32px;
   }
+}
 
+button {
+  display: block;
+  padding: 0;
 }
 
 .container {
