@@ -71,12 +71,18 @@ header {
   flex-grow: 1;
 
   height: 60px;
-  padding: 0 50px;
+  padding: 0 20px;
 
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--fill-black);
 }
+@media screen and (min-width: 1280px) {
+  .header-nav-wraper {
+    padding: 0 50px;
+  }
+}
+
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
 */
@@ -84,15 +90,32 @@ header {
   margin-left: auto;
   display: flex;
 }
+
 .header-logo {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
 }
 .header-nav-list {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
 }
+@media screen and (min-width: 0px) {
+  .header-nav-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-nav-list {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header-nav-list {
+    gap: 40px;
+  }
+}
+
 .header-nav-list-item {
 }
 .header-nav-list-link {
@@ -106,26 +129,30 @@ header {
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
 */
-.header-mobile-sign-up-button {  
+.header-mobile-sign-up-button {
   display: flex;
-  display: none;
   justify-content: center;
   align-items: center;
 
   width: 32px;
   height: 32px;
+  margin-right: 8px;
   border-radius: 50%;
 
   background-color: var(--fill-grey);
   opacity: 0.4;
 }
+@media screen and (min-width: 768px) {
+  .header-mobile-sign-up-button {
+    display: none;
+  }
+}
 .header-mobile-sign-up-button-icon {
   fill: var(--fill-brown-active);
-  
 }
-.header-mobile-sign-up-button:hover{
+.header-mobile-sign-up-button:hover {
   opacity: 1;
-} 
+}
 
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
@@ -133,12 +160,16 @@ header {
 .header-burger-menu-button {
   background-color: transparent;
   display: flex;
-  display: none;
   align-items: center;
   justify-content: center;
 
   border: 0px solid transparent;
   padding: 0px;
+}
+@media screen and (min-width: 1280px) {
+  .header-burger-menu-button {
+    display: none;
+  }
 }
 
 .header-burger-menu-button-icon {
@@ -149,5 +180,21 @@ header {
 }
 
 .header-sign-up-button {
-  width: 238px;
+  width: 186px;
+}
+
+@media screen and (min-width: 0px) {
+  .header-sign-up-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-sign-up-button {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-sign-up-button {
+    width: 238px;
+  }
 }
