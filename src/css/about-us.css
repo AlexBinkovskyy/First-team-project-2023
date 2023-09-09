@@ -4,13 +4,11 @@
 
 
 .about-title {
-  margin-bottom: 40px;
-
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -1.12px;
+  margin-bottom: 40px;
   color: var(--fill-white);
 }
 
@@ -74,12 +72,12 @@
 }
 
 .about-text {
-  color: var(--fill-white);
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.28px;
+
+  color: var(--fill-white);
 }
 @media only screen and (min-width: 768px) {
   .about-text {
