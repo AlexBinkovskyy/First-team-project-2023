@@ -1,9 +1,10 @@
 /**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
+|============================
+| include css partials with
+| default @import url()
+|============================
 */
+
 @import url('reset.css');
 @import url('variables.css');
 @import url('header.css');
@@ -15,6 +16,7 @@
 @import url('sign-up.css');
 @import url('reviews.css');
 @import url('footer.css');
+@import url('mobile-menu.css');
 
 :root {
   font-synthesis: none;
@@ -101,6 +103,10 @@ p {
     font-size: 16px;
     line-height: 1.25;
   }
+
+button {
+  display: block;
+  padding: 0;
 }
 
 .container {
