@@ -8,7 +8,6 @@
   padding: 20px 20px 0 20px;
   margin-left: auto;
   background-color: var(--brown-text);
-  background-color: var(--brown-text);
   background-image: url(../img/mobile-menu-camera@1x.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -25,8 +24,18 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .menu-container {
-    width: 768px;
-    padding: 0 32px;
+    width: 480px;
+    padding: 20px 32px 0 64px;
+    background-image: url(../img/tablet-menu-camera@1x.png);
+    background-size: auto;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .menu-container {
+      background-image: url(../img/tablet-menu-camera@2x.png);
+      background-size: contain;
+    }
   }
 }
 
@@ -46,6 +55,15 @@
 
 .menu-container .list-item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .mobile-close-btn {
+    margin-bottom: 172px;
+  }
+  .menu-container .list-item:not(:last-child) {
+    margin-bottom: 28px;
+  }
 }
 
 .menu-container .link {
