@@ -9,7 +9,7 @@
   line-height: 1.14; /* 114.286% */
   letter-spacing: -1.12px;
   margin-bottom: 40px;
-  color: var(--fill-white);
+  color: var(--white);
 }
 
 @media only screen and (min-width: 768px) {
@@ -21,7 +21,7 @@
   }
 }
 .word {
-  color: var(--fill-brown-active);
+  color: var( --brown-text);
 }
 @media only screen and (min-width: 1280px) {
   .about-desktop {
@@ -76,7 +76,7 @@
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.28px;
 
-  color: var(--fill-white);
+  color: var(--white);
 }
 @media only screen and (min-width: 768px) {
   .about-text {
