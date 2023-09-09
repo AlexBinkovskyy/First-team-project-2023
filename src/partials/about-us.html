@@ -1,16 +1,41 @@
 <section class="about-us">
-    <div class="container">
-      <h2 class="about-us-title">About <span class="word">Us</span></h2>
-      <div class="about-us-desctop">
+  <div class="about container">
+    <h2 class="about-title">About <span class="word">Us</span></h2>
+    <div class="about-desktop">
+      <picture>
+        <!-- Desktop Screen -->
+        <source
+          srcset="
+            ./img/about-desktop-camera@1x.png 1x,
+            ./img/about-desktop-camera@2x.png 2x
+          "
+          media="( min-width: 1280px)"
+        />
+        <!-- Tablet Screen  -->
+        <source
+          srcset="
+            ./img/about-tablet-camera@1x.png 1x,
+            ./img/about-tablet-camera@2x.png 2x
+          "
+          media="( min-width: 768px)"
+        />
+        <!-- Mobile Screen -->
+        <source
+          srcset="
+            ./img/about-mobile-camera@1x.png 1x,
+            ./img/about-mobile-camera@2x.png 2x"
+          media="( min-width: 375px)"
+        />
         <img
-        class="about-us-img"
-        src="./img/Rectangle6@2x-min.png"
-        alt="camera"
-        width="340" 
-      />
-      <ul class="about-us-list">
-        <li class="about-us-item">
-          <p class="about-us-text">
+          class="about-img"
+          src="./img/about-mobile-camera@1x.png"
+          alt="camera"
+          width="340"
+        />
+      </picture>
+      <ul class="about-list">
+        <li class="about-item">
+          <p class="about-text">
             Our photography school is designed to teach you everything you need
             to know about this magical art. Regardless of your experience or
             skill level, we offer a wide range of courses to suit your needs and
@@ -19,18 +44,17 @@
             only to share their knowledge, but also to inspire you to develop
             and express your unique creativity.
           </p>
-          
         </li>
-        <li class="about-us-item">
-          <p class="about-us-text">
-          Our courses cover a wide range of topics, from the basics of
-          photography and equipment use to professional image processing and
-          creating impressive compositions. You will have the opportunity to
-          learn the technical aspects of photography, discover your own style
-          and develop your own visual language.
-        </p>
-      </li>
+        <li class="about-item">
+          <p class="about-text">
+            Our courses cover a wide range of topics, from the basics of
+            photography and equipment use to professional image processing and
+            creating impressive compositions. You will have the opportunity to
+            learn the technical aspects of photography, discover your own style
+            and develop your own visual language.
+          </p>
+        </li>
       </ul>
-      </div>
     </div>
-  </section>
+  </div>
+</section>
