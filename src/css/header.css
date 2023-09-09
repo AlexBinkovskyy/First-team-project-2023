@@ -1,0 +1,153 @@
+/*
+▮▮▯▯⁘⁘⁘⁘⁘   Пропозиція перенести ці стилі до глобальних для перевикористання   ⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮  Потрібно задавати кнопці, для створення шаблону кнопки ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.btn {
+  height: 60px;
+  padding: 0 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0px solid transparent;
+}
+/*
+▮▮ Задаємо в додаток до правила btn щоб надати  темний стиль ⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.btn-dark {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2em;
+
+  border-radius: 12px;
+  background: #1d1d1d;
+}
+/*
+▮▮ Задаємо в додаток до правила btn щоб надати  світлий стиль ⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.btn-light {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background-color: #fff;
+
+  line-height: 1.55em;
+  border-radius: 12px;
+}
+.btn-light:hover {
+  background-color: var(--fill-grey);
+  color: var(--fill-brown-active);
+}
+/*
+  Я розумію, що багато хто вже написав 
+  велику кількість коду і не дуже хочеться 
+  його переробляти, тому це не більше 
+  ніж пропозиція.😊
+*/
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Header
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+header {
+  position: fixed;
+  z-index: 100;
+  top: 20px;
+  width: 100%;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-nav-wraper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+  height: 60px;
+  padding: 0 50px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--fill-black);
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-nav {
+  margin-left: auto;
+  display: flex;
+}
+.header-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-nav-list-item {
+}
+.header-nav-list-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.header-nav-list-link:hover {
+  color: var(--fill-brown-active);
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-mobile-sign-up-button {  
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  background-color: var(--fill-grey);
+  opacity: 0.4;
+}
+.header-mobile-sign-up-button-icon {
+  fill: var(--fill-brown-active);
+  
+}
+.header-mobile-sign-up-button:hover{
+  opacity: 1;
+} 
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-burger-menu-button {
+  background-color: transparent;
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  border: 0px solid transparent;
+  padding: 0px;
+}
+
+.header-burger-menu-button-icon {
+  stroke: #fff;
+}
+.header-burger-menu-button:hover .header-burger-menu-button-icon {
+  stroke: var(--fill-brown-active);
+}
+
+.header-sign-up-button {
+  width: 238px;
+}
