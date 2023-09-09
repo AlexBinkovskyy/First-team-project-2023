@@ -1,7 +1,18 @@
 .footer-container {
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
+    background-image: url(../img/graphic-phone.png);
 }
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .section-one {
+      background-image: 
+        url(../img/graphic-phone2x.png);
+    }
+    
+  }
+
 .logo {
     margin-top: 40px;
 }
@@ -118,7 +129,20 @@
     margin-bottom: 20px;
 }
 
-.footer-privacy {
-
+@media screen and (min-width: 768px) {
+    .logo {
+        margin-top: 50px;
+        width: 123px;
+    }
+    .footer-address {
+        margin-top: 25px;
+    }
+    .footer-social {
+        margin: auto 58px;
+        gap: 25px;
+    }
+    .footer-paragraphy {
+        gap: 399px;
+    }
 }
   
