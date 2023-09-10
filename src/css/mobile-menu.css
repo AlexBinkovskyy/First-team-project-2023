@@ -1,5 +1,9 @@
 .backdrop {
   background-color: rgba(18, 18, 18, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
 }
 
 .menu-container {
@@ -11,6 +15,8 @@
   background-image: url(../img/mobile-menu-camera@1x.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  transform: translateX(100vw);
+  transition: transform var( --transition-settings);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -112,4 +118,8 @@
 }
 
 .list-item {
+}
+
+.is-open {
+  transform: translateX(0);
 }
