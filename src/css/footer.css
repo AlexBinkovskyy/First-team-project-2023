@@ -134,14 +134,9 @@
     }
     .footer-address {
         margin-top: 25px;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
         gap: 10px;
     }
     .footer-social {
-        display: inline-flex;
-        align-items: flex-start;
         gap: 25px;
         margin-left: 58px;
     }
