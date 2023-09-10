@@ -21,6 +21,7 @@ id="sign-up"
   list-style-type: decimal-leading-zero;
 
 } */
+
 .course-list {
   list-style-type: none;
   counter-reset: my-counter;
@@ -37,7 +38,7 @@ id="sign-up"
   content: counter(my-counter);
   margin-right: 5px;
   content: '0' counter(my-counter);
-}
+
 .course-main-p {
   padding-bottom: 40px;
   font-size: 14px;
