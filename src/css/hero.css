@@ -5,8 +5,8 @@
 */
 
 .hero-section {
-    min-width: 320px;
-    max-width: 428px;
+    /* min-width: 320px;
+    max-width: 428px; */
 }
 @media screen and (min-width: 768px) {
     .hero-section {
@@ -23,8 +23,24 @@
 .hero-container {
     background-color: #1D1D1D;
     border-radius: 30px;
+    flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+    padding-left: 32px;
+    padding-right: 155px;
+    padding-top: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+    gap: 20px;
+    }
 }
 
 .container {}
@@ -62,7 +78,21 @@
         font-size: 60px;
         line-height: 64px;
         letter-spacing: -2.4px;
-        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-name {
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 68px;
+        letter-spacing: -2.56px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-name {
+        width: 563px;
     }
 }
 
@@ -77,25 +107,47 @@
 
 @media screen and (min-width: 768px) {
     .ptotography-word {
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 64px;
-        etter-spacing: -2.4px;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .ptotography-word {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -2.56px;
     }
 }
     
 .hero-description {
-    width: 295px;
-    color: var(--white);
     font-size: 14px;
-    font-style: normal;
+    display: inline-block;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
-    padding-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-description {
+    width: 418px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-description {
+    padding-right: 0px;
+    width: 418px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-description {
+    display: inline-block;
+    }
+}
 
 /**
   |============================
@@ -119,7 +171,12 @@
     gap: 40px;
 }
 
-.hero-students {}
+.hero-students {
+    display: flex;
+    row-gap: 4px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
 
 .students-list {
     display: flex;
@@ -156,15 +213,34 @@
 .our-happy-students-list {}
 
 .our-happy-students-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
     width: 67px;
+}
+
+@media screen and (min-width: 768px) {
+    .our-happy-students-text {
+    width: 82px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    }
 }
 
 .happy-students-link {}
 
 .happy-students-icon {
     fill: var(--white);
+    stroke-width: 1.5px;
+    height: 8.66px;
+     width: 18px;
 }
 
+@media screen and (min-width: 768px) {
+    .happy-students-icon {}
+}
 
 /**
   |============================
@@ -193,17 +269,49 @@
     border-radius: 100px;
     fill: transparent;
     stroke: #1D1D1D;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-icon {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    }
 }
 
 .review-list {}
 
 .reviews-text {
-    color: rgba(255, 255, 255, 0.50);
-    padding-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 768px) {
+    .reviews-text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    }
 }
 
-.reviews-number {}
+.reviews-number {
+    width: 57px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.64px;
+}
 
+@media screen and (min-width: 768px) {
+    .reviews-number {
+    line-height: 20px;
+    }
+}
 
 /**
   |============================
@@ -212,19 +320,29 @@
 */
 
 .hero-image {
-    max-width: 259px;
-    max-height: 314px;
-    flex-shrink: 0;
-    margin-right: 38px;
-    margin-left: 38px;
-    margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 380px) {
+    .hero-image {
+    width: 177px;
+    padding-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    .hero-image {}
+}
+
+@media screen and (min-width: 1280px) {
     .hero-image {
-        max-width: 393px;
-        max-height: 434px;
-    }    
+    width: 397px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-image {}
 }
 
 .hero-image-photo {}
