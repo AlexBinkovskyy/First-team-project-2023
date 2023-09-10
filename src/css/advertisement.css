@@ -1,9 +1,7 @@
 .marquee {
   overflow: hidden;
-  font-family: 'Pridi', sans-serif;
-  font-weight: 600;
-  font-size: 34px;
   text-transform: uppercase;
+  padding-bottom: 100px;
 }
 
 .marquee__inner {
@@ -11,18 +9,14 @@
 }
 
 .marquee__line {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: -0.56px;
-  text-transform: uppercase;
 
   flex-shrink: 0;
   margin: 0;
-  padding: 20px 15px;
+  padding: 24px 8px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
@@ -41,19 +35,38 @@
   }
 }
 .marquee-span {
-  color: var();
-  font-family: DM Sans;
+  color: var(--brown-text);
   font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 32px; /* 114.286% */
   letter-spacing: -0.56px;
-  text-transform: uppercase;
 }
 @media only screen and (min-width: 768px) {
+  .marquee__line {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+  }
+  .marquee-span {
+    font-size: 40px;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.8px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
+  .marquee {
+    padding-bottom: 150px;
+  }
+  .marquee__line {
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -1.18px;
+  }
+  .marquee-span {
+    font-size: 59px;
+    line-height: 64px; /* 108.475% */
+    letter-spacing: -1.18px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {

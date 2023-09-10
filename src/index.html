@@ -19,22 +19,28 @@
   </head>
   <body>
     <section class="header-hero-bckgrnd">
-      <div class="header-content">
+      <div class="header-content" id="header-content">
         <load src="partials/header.html" />
       </div>
       <div class="hero-content">
         <load src="partials/hero.html" />
       </div>
     </section>
+
     <load src="partials/advertisement.html" />
     <load src="partials/about-us.html" />
     <load src="partials/our-courses.html" />
     <load src="partials/our-mentors.html" />
     <load src="partials/sign-up.html" />
     <load src="partials/reviews.html" />
+
     <footer>
       <load src="partials/footer.html" />
     </footer>
-    <script type="module" src="/main.js"></script>
+    <load src="partials/mobile-menu.html" />
+
+    <!-- Scripts -->
+    <script type="module" src="../src/js/main.js"></script>
+    <script defer src="../src/js/mobile-menu.js"></script>
   </body>
 </html>
