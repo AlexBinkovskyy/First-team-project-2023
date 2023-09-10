@@ -26,7 +26,7 @@ id="sign-up"
 
 .courses li {
   counter-increment: my-counter;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .courses li::before {
