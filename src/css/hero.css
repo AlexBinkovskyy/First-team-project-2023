@@ -173,9 +173,19 @@
 
 .hero-students {
     display: flex;
-    row-gap: 4px;
+    /* row-gap: 4px;
     flex-wrap: wrap;
-    column-gap: 50px;
+    column-gap: 50px; */
+    flex-direction: column;
+    width: 107px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-students {
+    gap: 18px;
+    width: 120px;
+    flex-direction: row;
+    }
 }
 
 .students-list {
@@ -187,11 +197,14 @@
 .students-image {
     border: 2px solid #1D1D1D;
     border-radius: 100px;
-    width: 44px;
-    height: 44px;
     flex-shrink: 0;
 }
-
+@media screen and (min-width: 768px) {
+    .students-image {
+    width: 54px;
+    height: 54px;
+    }
+}
 
 /**
   |============================
