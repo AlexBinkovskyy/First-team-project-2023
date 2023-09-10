@@ -29,21 +29,6 @@ body {
   color: var(--white);
 }
 
-.header-hero-bckgrnd {
-  background-image: url(../img/header-hero-bg-desktop@1x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .header-hero-bckgrnd {
-    background-image: url(../img/header-hero-bg-desktop@2x.png);
-  }
-}
-
 h1 {
   font-size: 40px;
   font-style: normal;
@@ -140,4 +125,25 @@ button {
   .container {
     width: 1440px;
   }
+}
+
+.header-hero-bckgrnd {
+  background-image: url(../img/header-hero-bg-desktop@1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-hero-bckgrnd {
+    background-image: url(../img/header-hero-bg-desktop@2x.png);
+  }
+}
+
+#header-content {
+  position: sticky;
+  top: 20px;
+  margin-bottom: 80px;
 }
