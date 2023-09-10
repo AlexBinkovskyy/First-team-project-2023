@@ -1,4 +1,3 @@
-
 .btn {
   height: 60px;
   padding: 16px 17px;
@@ -35,6 +34,8 @@
 
   line-height: 1.55em;
   border-radius: 12px;
+  transition-property: background-color, color;
+  transition: var(--transition-settings);
 }
 .btn-light:hover {
   background-color: var(--grey);
@@ -46,14 +47,10 @@
 ▮▮   Header
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 */
-.header-content{
-  height: 80px;
-}
+
 .header {
-  position: fixed;
-  top: 20px;
+  margin-top: 20px;
   width: 100%;
-  z-index: 1000;
 }
 .header-container {
   display: flex;
@@ -121,6 +118,8 @@
   font-size: 14px;
   text-transform: uppercase;
   padding: 20px 0;
+
+  transition: color var(--transition-settings);
 }
 .header-nav-list-link:hover {
   color: var(--brown-active);
@@ -148,6 +147,7 @@
 }
 .header-mobile-sign-up-button-icon {
   fill: var(--brown-active);
+  transition: fill var(--transition-settings);
 }
 .header-mobile-sign-up-button:hover {
   opacity: 1;
@@ -173,6 +173,7 @@
 
 .header-burger-menu-button-icon {
   stroke: #fff;
+  transition: stroke var(--transition-settings);
 }
 .header-burger-menu-button:hover .header-burger-menu-button-icon {
   stroke: var(--brown-active);
