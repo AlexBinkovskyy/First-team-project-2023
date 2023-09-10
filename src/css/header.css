@@ -37,7 +37,8 @@
   transition-property: background-color, color;
   transition: var(--transition-settings);
 }
-.btn-light:hover {
+.btn-light:hover,
+:focus {
   background-color: var(--grey);
   color: var(--brown-active);
 }
@@ -115,12 +116,14 @@
 .header-nav-list-item {
 }
 .header-nav-list-link {
+  font-size: 14px;
   text-transform: uppercase;
   padding: 20px 0;
 
   transition: color var(--transition-settings);
 }
-.header-nav-list-link:hover {
+.header-nav-list-link:hover,
+:focus {
   color: var(--brown-active);
 }
 /*
@@ -138,6 +141,10 @@
 
   background-color: var(--grey);
   opacity: 0.4;
+  transition: opacity var(--transition-settings), transform 0.1s linear;
+}
+.header-mobile-sign-up-button:active {
+  transform: scale(1.1);
 }
 @media screen and (min-width: 768px) {
   .header-mobile-sign-up-button {
@@ -146,9 +153,9 @@
 }
 .header-mobile-sign-up-button-icon {
   fill: var(--brown-active);
-  transition: fill var(--transition-settings);
 }
-.header-mobile-sign-up-button:hover {
+.header-mobile-sign-up-button:hover,
+:focus {
   opacity: 1;
 }
 
@@ -163,6 +170,11 @@
 
   border: 0px solid transparent;
   padding: 0px;
+  transition: transform var(--transition-settings);
+  transition-duration: 0.1s;
+}
+.header-burger-menu-button:active {
+  transform: scale(1.1);
 }
 @media screen and (min-width: 1280px) {
   .header-burger-menu-button {
@@ -174,7 +186,8 @@
   stroke: #fff;
   transition: stroke var(--transition-settings);
 }
-.header-burger-menu-button:hover .header-burger-menu-button-icon {
+.header-burger-menu-button:hover,
+:focus .header-burger-menu-button-icon {
   stroke: var(--brown-active);
 }
 
