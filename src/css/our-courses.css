@@ -1,4 +1,4 @@
-/* Якір на sign upbef
+/* Якір на sign up
 id="sign-up"
 */
 .courses {
@@ -9,7 +9,7 @@ id="sign-up"
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
+  line-height: 32px;
   letter-spacing: -1.12px;
   margin-bottom: 20px;
   width: 155px;
@@ -17,10 +17,26 @@ id="sign-up"
 .main-name-courses {
   color: #bea69e;
 }
-ol {
+/* ol {
   list-style-type: decimal-leading-zero;
+
+} */
+.course-list {
+  list-style-type: none;
+  counter-reset: my-counter;
   margin: 0px;
   padding: 0px;
+}
+
+.course-list-i {
+  counter-increment: my-counter;
+  margin-bottom: 5px;
+}
+
+.course-list-i::before {
+  content: counter(my-counter);
+  margin-right: 5px;
+  content: '0' counter(my-counter);
 }
 .course-main-p {
   padding-bottom: 40px;
@@ -57,6 +73,7 @@ ol {
   color: #fff;
   margin-bottom: 164px;
   line-height: 32px;
+  text-align: left;
 }
 .list-course-name-last {
   width: 275px;
@@ -71,18 +88,18 @@ ol {
   color: rgba(255, 255, 255, 0.5);
 }
 .anchor {
-  /* fill: #777777;
+  fill: #777777;
   position: relative;
   left: 233px;
   top: 22px;
   background-color: #1d1d1d;
   border-radius: 50%;
-  cursor: pointer; */
-  /* height: 32px;
+  cursor: pointer;
+  height: 32px;
   width: 32px;
-  padding: 6px; 
-*/
-  display: none;
+  padding: 6px;
+
+  /* display: none; */
 }
 @media only screen and (min-width: 768px) {
   .main-name {
@@ -145,5 +162,26 @@ ol {
   }
   .content-cards {
     padding-top: 42px;
+  }
+  .list-course-p {
+    width: 283px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .main-name {
+    margin-bottom: 56px;
+  }
+  .course-list-i {
+    width: 400px;
+  }
+  .course-main-p {
+    width: 565px;
+  }
+  .list-course-p {
+    width: 336px;
+    padding: 0;
+  }
+  .list-course-name {
+    margin-bottom: 200px;
   }
 }
