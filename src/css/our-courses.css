@@ -21,7 +21,7 @@ id="sign-up"
   list-style-type: decimal-leading-zero;
 
 } */
-ol {
+.courses ol {
   list-style-type: none; /* Remove the default dot */
   counter-reset: my-counter; /* Reset the counter before the list */
   margin: 0px;
@@ -29,13 +29,13 @@ ol {
 }
 
 /* Style for list items */
-li {
+.courses li {
   counter-increment: my-counter; /* Increment the counter for each list item */
   margin-bottom: 5px; /* Add some spacing between list items */
 }
 
 /* Style for the number display before each list item */
-li::before {
+.courses li::before {
   content: counter(my-counter); /* Display the counter value */
   margin-right: 5px; /* Add spacing before the number */
   /* Add a leading zero using the :before pseudo-element */
