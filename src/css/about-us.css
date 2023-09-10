@@ -19,6 +19,7 @@
 
 @media only screen and (min-width: 768px) {
   .about-title {
+    letter-spacing: -1.92;
     margin-bottom: 50px;
   }
 }
@@ -87,14 +88,17 @@
 }
 
 .about-text {
+  
   color: var(--white);
 }
 @media only screen and (min-width: 768px) {
   .about-text {
     width: 280px;
+    letter-spacing: -0.32px;
   }
   .about-text2 {
     width: 280px;
+    letter-spacing: -0.32px;
   }
 
 }
@@ -104,5 +108,13 @@
   }
   .about-text2 {
     width: 264px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-text {
+    width: 330px;
+  }
+  .about-text2 {
+    width: 267px;
   }
 }
