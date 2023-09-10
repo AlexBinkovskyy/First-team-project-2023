@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1280px) {
   .signup {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
   }
 }
 
@@ -30,7 +30,6 @@
 
 .signup-text {
   margin-bottom: 40px;
-  width: 295px;
 }
 @media only screen and (min-width: 768px) {
   .signup-text {

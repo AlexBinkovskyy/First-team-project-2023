@@ -1,0 +1,230 @@
+/**
+  |============================
+  | Hero Container
+  |============================
+*/
+
+.hero-section {
+    min-width: 320px;
+    max-width: 428px;
+}
+@media screen and (min-width: 768px) {
+    .hero-section {
+        max-width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section {
+        max-width: 1440px;
+    }
+}
+
+.hero-container {
+    background-color: #1D1D1D;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {}
+
+/**
+  |============================
+  | Hero name
+  |============================
+*/
+.hero-name-block {
+    max-width: 295px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-name-block {
+    width: 517px;
+    }
+}
+
+.hero-name {
+    color: var(--white);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-name {
+        width: 517px;
+        font-size: 60px;
+        line-height: 64px;
+        letter-spacing: -2.4px;
+        font-size: 60px;
+    }
+}
+
+.ptotography-word {
+    color: #BEA69E;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+}
+
+@media screen and (min-width: 768px) {
+    .ptotography-word {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px;
+        etter-spacing: -2.4px;
+    }
+}
+    
+.hero-description {
+    width: 295px;
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-bottom: 40px;
+}
+
+
+/**
+  |============================
+  | Hero Students
+  |============================
+*/
+.hero-common-block {
+    margin-left: 20px;
+    margin-right: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-common-block {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.students-block {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-students {}
+
+.students-list {
+    display: flex;
+}
+
+.students-photo {}
+
+.students-image {
+    border: 2px solid #1D1D1D;
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+
+/**
+  |============================
+  | Happy Students
+  |============================
+*/
+
+.happy-students {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.our-happy-students {
+    display: flex;
+    align-items: center;
+}
+
+.our-happy-students-list {}
+
+.our-happy-students-text {
+    width: 67px;
+}
+
+.happy-students-link {}
+
+.happy-students-icon {
+    fill: var(--white);
+}
+
+
+/**
+  |============================
+  | Reviews
+  |============================
+*/
+
+.reviews {
+    display: flex;
+    width: 104px;
+    align-items: center;
+    
+}
+
+.reviews-items {
+    display: flex;
+    width: 104px;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviews-list {}
+
+.reviews-icon {
+    background: #BEA69E;
+    border-radius: 100px;
+    fill: transparent;
+    stroke: #1D1D1D;
+}
+
+.review-list {}
+
+.reviews-text {
+    color: rgba(255, 255, 255, 0.50);
+    padding-bottom: 4px;
+}
+
+.reviews-number {}
+
+
+/**
+  |============================
+  | Hero Image
+  |============================
+*/
+
+.hero-image {
+    max-width: 259px;
+    max-height: 314px;
+    flex-shrink: 0;
+    margin-right: 38px;
+    margin-left: 38px;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-image {
+        max-width: 393px;
+        max-height: 434px;
+    }    
+}
+
+.hero-image-photo {}
