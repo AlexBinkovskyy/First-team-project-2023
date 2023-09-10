@@ -17,10 +17,29 @@ id="sign-up"
 .main-name-courses {
   color: #bea69e;
 }
-ol {
+/* ol {
   list-style-type: decimal-leading-zero;
+
+} */
+ol {
+  list-style-type: none; /* Remove the default dot */
+  counter-reset: my-counter; /* Reset the counter before the list */
   margin: 0px;
   padding: 0px;
+}
+
+/* Style for list items */
+li {
+  counter-increment: my-counter; /* Increment the counter for each list item */
+  margin-bottom: 5px; /* Add some spacing between list items */
+}
+
+/* Style for the number display before each list item */
+li::before {
+  content: counter(my-counter); /* Display the counter value */
+  margin-right: 5px; /* Add spacing before the number */
+  /* Add a leading zero using the :before pseudo-element */
+  content: '0' counter(my-counter); /* Add a leading zero to the counter value */
 }
 .course-main-p {
   padding-bottom: 40px;
@@ -57,6 +76,7 @@ ol {
   color: #fff;
   margin-bottom: 164px;
   line-height: 32px;
+  text-align: left;
 }
 .list-course-name-last {
   width: 275px;
