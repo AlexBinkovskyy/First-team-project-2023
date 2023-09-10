@@ -50,9 +50,20 @@
 */
 
 .header {
-  margin: 20px 0;
+  padding: 20px 0;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 80px;
+  }
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -83,6 +94,7 @@
   margin-left: auto;
   display: flex;
 }
+
 
 .header-logo {
   font-size: 17px;
