@@ -154,13 +154,13 @@
   display: flex;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .hero-students {
     gap: 18px;
     width: 120px;
     flex-direction: row;
     }
-} */
+}
 
 .students-list {
   display: flex;
@@ -246,14 +246,14 @@
   width: 67px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .our-happy-students-text {
     width: 82px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.64px;
     }
-} */
+}
 
 .happy-students-link {
 }
@@ -275,7 +275,7 @@
   |============================
 */
 
-/* .reviews {
+.reviews {
     display: flex;
     width: 104px;
     align-items: center;
@@ -338,7 +338,7 @@
     .reviews-number {
     line-height: 20px;
     }
-} */
+}
 
 /**
   |============================
@@ -346,7 +346,7 @@
   |============================
 */
 
-/* .hero-image {
+.hero-image {
 }
 
 @media only screen and (min-width: 260px) and (max-width: 380px) {
@@ -372,4 +372,4 @@
     .hero-image {}
 }
 
-.hero-image-photo {} */
+.hero-image-photo {}
