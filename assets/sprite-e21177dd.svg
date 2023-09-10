@@ -42,10 +42,10 @@
             </path>
         </symbol>
         <symbol id="icon-arrow-narrow-up-right-icon" viewBox="0 0 32 32">
-            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800"
-                d="M8 24l16-16"></path>
-            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800"
-                d="M13.333 8h10.667v10.667"></path>
+            <path fill="none" stroke="#777" stroke-width="2.0800" stroke-miterlimit="4" stroke-linecap="round"
+                stroke-linejoin="round" style="stroke: varolor1, #777)" d="M8 24l16-16"></path>
+            <path fill="none" stroke="#777" stroke-width="2.0800" stroke-miterlimit="4" stroke-linecap="round"
+                stroke-linejoin="round" style="stroke: var(--color1, #777)" d="M13.333 8h10.667v10.667"></path>
         </symbol>
         <symbol id="icon-logo" viewBox="0 0 233 32">
             <path d="M19.471 17.348h-13.192v12.649h-6.28v-29.997h21.368v5.24h-15.089v6.822h13.192v5.286z"></path>
