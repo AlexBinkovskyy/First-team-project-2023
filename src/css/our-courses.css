@@ -26,7 +26,6 @@ id="sign-up"
 
 .courses li {
   counter-increment: my-counter;
-  /* margin-bottom: 5px; */
 }
 
 .courses li::before {
@@ -48,12 +47,14 @@ id="sign-up"
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   padding-left: 28px;
-  padding-top: 10px;
+  padding-top: 28px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
   margin-bottom: 20px;
   flex-shrink: 0;
+  gap: 20px;
+  position: relative;
 }
 .course-list-i:last-child {
   margin-bottom: 80px;
@@ -83,17 +84,25 @@ id="sign-up"
   line-height: 18px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media only screen and (max-width: 320px) {
+  .list-course-p {
+    width: auto;
+  }
+}
+
 .anchor {
   fill: #777777;
-  position: relative;
-  left: 222px;
-  top: 19px;
+  position: absolute;
+  /* left: 222px;
+  top: 19px; */
   background-color: #1d1d1d;
   border-radius: 50%;
   cursor: pointer;
   height: 32px;
   width: 32px;
   padding: 6px;
+  right: 28px;
+  top: 28px;
 
   /* display: none; */
 }
@@ -128,7 +137,7 @@ id="sign-up"
     margin-bottom: 0;
     width: 342px;
     height: 452px;
-    padding-top: 14px;
+    padding-top: 32px;
     padding-left: 32px;
   }
   .list-course-p {
@@ -159,6 +168,10 @@ id="sign-up"
   .content-cards {
     padding-top: 42px;
   }
+  .anchor {
+    right: 38px;
+    top: 38px;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .course-main-p {
@@ -174,8 +187,5 @@ id="sign-up"
   }
   .list-course-name {
     margin-bottom: 200px;
-  }
-  .anchor {
-    left: 280px;
   }
 }
