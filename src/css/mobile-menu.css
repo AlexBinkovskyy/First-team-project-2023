@@ -1,0 +1,115 @@
+.backdrop {
+  background-color: rgba(18, 18, 18, 0.4);
+}
+
+.menu-container {
+  width: 218px;
+  height: 100vh;
+  padding: 20px 20px 0 20px;
+  margin-left: auto;
+  background-color: var(--brown-text);
+  background-image: url(../img/mobile-menu-camera@1x.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .menu-container {
+    background-image: url(../img/mobile-menu-camera@2x.png);
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .menu-container {
+    width: 480px;
+    padding: 20px 32px 0 64px;
+    background-image: url(../img/tablet-menu-camera@1x.png);
+    background-size: auto;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .menu-container {
+      background-image: url(../img/tablet-menu-camera@2x.png);
+      background-size: contain;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-container {
+    display: none;
+  }
+}
+
+.mobile-close-btn {
+  stroke: var(--black);
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  margin-bottom: 128px;
+}
+
+.menu-container .list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .mobile-close-btn {
+    margin-bottom: 172px;
+  }
+  .menu-container .list-item:not(:last-child) {
+    margin-bottom: 28px;
+  }
+}
+
+.menu-container .link {
+  display: block;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.menu-container .link:hover,
+.menu-container .link:focus,
+.menu-container .link:active {
+  font-weight: 700;
+}
+
+/* .mob-menu-img {
+  width: 329px;
+  height: 218px;
+} */
+
+/* @media only screen and (min-width: 375px) {
+  .menu-container {
+    width: 375px;
+  }
+} */
+
+.js-menu-container {
+}
+
+/* .menu-toggle {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 146px;
+  ;
+} */
+
+.js-close-menu {
+}
+
+/* .mobile-btn {
+  stroke: var(--black);
+  display: block;
+} */
+
+.list {
+}
+
+.list-item {
+}
