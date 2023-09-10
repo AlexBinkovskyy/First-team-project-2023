@@ -221,4 +221,11 @@
     margin-bottom: 80px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-image {
+        max-width: 393px;
+        max-height: 434px;
+    }    
+}
+
 .hero-image-photo {}
