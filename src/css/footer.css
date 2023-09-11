@@ -124,14 +124,11 @@ footer {
     }
     .footer-our-info {
         margin-right: auto;
-        font-size: 14px;
     }
     .footer-navigation-box {
         margin: 0;
         margin-right: 59px;
         padding: 0;
-        gap: 40px;
-        font-size: 14px;
     }
     .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
          margin-bottom: 14px;
