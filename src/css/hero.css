@@ -1,378 +1,212 @@
-/**
-  |============================
-  | Hero Container
-  |============================
-*/
+.hero-section {}
 
-.hero-section .wrapper {
-  background-color: #1d1d1d;
-  border-radius: 30px;
-  padding: 80px 100px 0 50px;
-  display: flex;
-  justify-content: space-between;
+.hero-container {}
+
+.hero-wrapper {
+
+    padding: 50px;
+    padding-top: 80px;
+    background-color: var(--grey);
+    border-radius: 30px;
 }
 .hero-section{
   padding-top: 160px;
 }
 
-/* @media screen and (min-width: 768px) {
-    .hero-container {
-    padding-left: 32px;
-    padding-right: 155px;
-    }
-}
-
 @media screen and (min-width: 1280px) {
-    .hero-container {
-    gap: 20px;
-    }
-} */
-
-.container {
-}
-
-/**
-  |============================
-  | Hero name
-  |============================
-*/
-.hero-name-block {
- 
-}
-
-@media screen and (min-width: 768px) {
-    .hero-name-block {
-    }
-}
-
-.hero-name {
-  color: var(--white);
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 44px;
-  letter-spacing: -1.6px;
-  padding-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-name {
-    width: 517px;
-    font-size: 60px;
-    line-height: 64px;
-    letter-spacing: -2.4px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-name {
-    width: 563px;
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 68px;
-    letter-spacing: -2.56px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-name {}
-}
-
-.ptotography-word {
-  color: #bea69e;
-  font-size: 40px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 44px;
-  letter-spacing: -1.6px;
-}
-
-@media screen and (min-width: 768px) {
-  .ptotography-word {
-    font-size: 60px;
-    line-height: 64px;
-    letter-spacing: -2.4px;
-  }
-} 
-
-@media screen and (min-width: 1280px) {
-  .ptotography-word {
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 68px;
-    letter-spacing: -2.56px;
-  }
-} 
-
-.hero-description {
-  font-size: 14px;
-  display: inline-block;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-description {
-    width: 418px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-description {
-    padding-right: 0px;
-    width: 418px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero-description {
-    display: inline-block;
-  }
-}
-
-/**
-  |============================
-  | Hero Students
-  |============================
-*/
-/* .hero-common-block {
-    margin-left: 20px;
-    margin-right: 64px;
-}
-
-@media screen and (min-width: 768px) {
-    .hero-common-block {
+    .hero-wrapper {
         display: flex;
-        align-items: center;
     }
-} */
+}
 
-.students-block {
+/*-----------------------------------*/
+.hero-text-side {
+    max-width: 563px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-text-side {
+        margin-bottom: 0px;
+    }
+}
+
+.hero-name-block {
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-name-block {
+        margin-bottom: 136px;
+    }
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title {
+        font-size: 64px;
+        line-height: 68px;
+    }
+}
+
+.hero-title-akcent-text {
+    color: var(--brown-text);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title-akcent-text {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title-akcent-text {
+        font-size: 64px;
+        line-height: 68px;
+    }
+}
+
+.hero-desc {
+    max-width: 418px;
+}
+
+/*-----------------------------------*/
+.hero-statistic {
     display: flex;
     gap: 40px;
+    font-size: 16px;
 }
 
+@media screen and (max-width: 767px) {
+    .hero-statistic {
+    font-size: 14px;
+    }
+}
+
+.hero-reviews,
 .hero-students {
-  display: flex;
+    display: flex;
+    gap: 12px;
+}
+
+/*-----------------------------------*/
+.hero-students {}
+
+@media screen and (max-width: 767px) {
+    .hero-students {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .hero-students {
-    gap: 18px;
-    width: 120px;
-    flex-direction: row;
+        display: flex;
     }
 }
 
-.students-list {
-  display: flex;
-}
-
-.students-photo {
-}
-
-.students-image {
-  border: 2px solid #1d1d1d;
-  border-radius: 100px;
-  flex-shrink: 0;
-}
-
-/* Icons Students */
-.girl-1 {
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    transform: translate(67px, 0px);
-}
-
-.boy-1{
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    transform: translate(35px, 0px);
-}
-
-.girl-2{
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    transform: translate(2px, 0px);
-}
-
-@media screen and (min-width: 768px) {
-    .girl-2{
-        width: 54px;
-        height: 54px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .girl-1 {
-        width: 54px;
-        height: 54px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .boy-1{
-        width: 54px;
-        height: 54px;
-    }
-}
-
-/**
-  |============================
-  | Happy Students
-  |============================
-*/
-
-.happy-students {
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-}
-
-.our-happy-students {
-  display: flex;
-  align-items: center;
-}
-
-.our-happy-students-list {
-}
-
-.our-happy-students-text {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.56px;
-  width: 67px;
-}
-
-@media screen and (min-width: 768px) {
-    .our-happy-students-text {
-    width: 82px;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.64px;
-    }
-}
-
-.happy-students-link {
-}
-
-.happy-students-icon {
-  fill: var(--white);
-  stroke-width: 1.5px;
-  height: 8.66px;
-  width: 18px;
-}
-
-/* @media screen and (min-width: 768px) {
-    .happy-students-icon {}
-} */
-
-/**
-  |============================
-  | Reviews
-  |============================
-*/
-
-.reviews {
-    display: flex;
-    width: 104px;
-    align-items: center;
+.hero-students-img-part {
     
 }
 
-.reviews-items {
-    display: flex;
-    width: 104px;
-    align-items: center;
-    gap: 12px;
+.hero-students-img {}
+
+@media screen and (max-width: 767px) {
+    .hero-students-img {
+        height: 44px;
+    }
 }
 
-.reviews-list {}
+.hero-students-text-part {}
 
-.reviews-icon {
-    background: #BEA69E;
-    border-radius: 100px;
-    fill: transparent;
-    stroke: #1D1D1D;
-    width: 44px;
-    height: 44px;
-    padding: 12px;
+.hero-students-text {
+    max-width: 82px;
+    margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
-    .reviews-icon {
+    .hero-students-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.hero-students-icon {
+    fill: var(--white);
+    width: 18px;
+}
+
+/*-----------------------------------*/
+.hero-reviews {}
+
+.hero-reviews-img-part {
+    background-color: var(--brown-active);
+    border-radius: 50%;
     width: 50px;
     height: 50px;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-reviews-img-part {
+        width: 44px;
+        height: 44px;
     }
 }
 
-.review-list {}
+.reviews-icon {
+    height: 20px;
+    min-width: 20px;
+    fill: transparent;
+    stroke: var(--black);
+}
+
+.hero-reviews-text-part {}
 
 .reviews-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.56px;
-    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin-bottom: 8px;
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 767px) {
     .reviews-text {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.64px;
+        font-size: 14px;
     }
 }
 
-.reviews-number {
-    width: 57px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.64px;
-}
+.reviews-number {}
 
+@media screen and (max-width: 767px) {
+    .reviews-number {
+        font-size: 16px;
+    }
+}
 @media screen and (min-width: 768px) {
     .reviews-number {
-    line-height: 20px;
+        font-size: 20px;
     }
 }
-
-/**
-  |============================
-  | Hero Image
-  |============================
-*/
-
+/*-----------------------------------*/
 .hero-image {
+    flex-grow: 1;
+    margin-bottom: -50px;
 }
 
-@media only screen and (min-width: 260px) and (max-width: 380px) {
-    .hero-image {
-    width: 177px;
-    padding-top: 31px;
-    margin-left: auto;
-    margin-right: auto;
-    }
+.hero-image-photo {
+    margin: 0 auto;
+    height: 100%;
 }
-
-@media screen and (min-width: 768px) {
-    .hero-image {}
-}
-
-@media screen and (min-width: 1280px) {
-    .hero-image {
-    width: 397px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .hero-image {}
-}
-
-.hero-image-photo {}
