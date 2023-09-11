@@ -1,0 +1,241 @@
+.btn {
+  height: 60px;
+  padding: 16px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  border: 0px solid transparent;
+}
+/*
+▮▮ Задаємо в додаток до правила btn щоб надати  темний стиль ⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.btn-dark {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2em;
+
+  border-radius: 12px;
+  background: #1d1d1d;
+}
+/*
+▮▮ Задаємо в додаток до правила btn щоб надати  світлий стиль ⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.btn-light {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background-color: var(--white);
+
+  line-height: 1.55em;
+  border-radius: 12px;
+  transition-property: background-color, color;
+  transition: var(--transition-settings);
+}
+.btn-light:hover,
+:focus {
+  background-color: var(--grey);
+  color: var(--brown-active);
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   Header
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding: 20px 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.show-header-bg {
+  animation: header-bg-on 0.3s forwards;
+}
+.hide-header-bg {
+  animation: header-bg-off 0.3s forwards;
+}
+@keyframes header-bg-on {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #161616;
+  }
+}
+@keyframes header-bg-off {
+  100% {
+    background-color: transparent;
+  }
+  0% {
+    background-color: #161616;
+  }
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-nav-wraper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+  height: 60px;
+  padding: 0 20px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black);
+}
+@media screen and (min-width: 1280px) {
+  .header-nav-wraper {
+    padding: 0 50px;
+  }
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-nav {
+  margin-left: auto;
+  display: flex;
+}
+
+.header-logo {
+  font-size: 17px;
+  font-weight: 700;
+
+  margin-bottom: -5px;
+
+  fill: var(--white);
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+@media screen and (min-width: 0px) {
+  .header-nav-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-nav-list {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header-nav-list {
+    gap: 40px;
+  }
+}
+
+.header-nav-list-item {
+}
+.header-nav-list-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 0;
+
+  transition: color var(--transition-settings);
+}
+.header-nav-list-link:hover,
+:focus {
+  color: var(--brown-active);
+  background-color: transparent;
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-mobile-sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 50%;
+
+  background-color: var(--grey);
+  opacity: 0.4;
+  transition: opacity var(--transition-settings), transform 0.1s linear;
+}
+.header-mobile-sign-up-button:active {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 768px) {
+  .header-mobile-sign-up-button {
+    display: none;
+  }
+}
+.header-mobile-sign-up-button-icon {
+  fill: var(--brown-active);
+}
+.header-mobile-sign-up-button:hover,
+:focus {
+  opacity: 1;
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
+*/
+.header-burger-menu-button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0px solid transparent;
+  transition: transform var(--transition-settings);
+  transition-duration: 0.1s;
+}
+.header-burger-menu-button:active {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 1280px) {
+  .header-burger-menu-button {
+    display: none;
+  }
+}
+
+.header-burger-menu-button-icon {
+  stroke: #fff;
+  transition: stroke var(--transition-settings);
+}
+.header-burger-menu-button:hover .header-burger-menu-button-icon,
+:focus .header-burger-menu-button-icon {
+  stroke: var(--brown-active);
+}
+
+.header-sign-up-button {
+  width: 186px;
+}
+@media screen and (min-width: 0px) {
+  .header-sign-up-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-sign-up-button {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-sign-up-button {
+    width: 238px;
+  }
+}
