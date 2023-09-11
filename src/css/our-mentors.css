@@ -38,11 +38,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 476px;
-    justify-content: flex-start;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 92px 100px;
+    max-width: 474px;
+    justify-content: space-between;
+    margin: 0 auto;
+    row-gap: 92px;
   }
 }
 
@@ -79,14 +78,6 @@
 
 .mentors-photo {
   margin: 0 auto 16px;
-}
-
-@media only screen and (min-width: 768px) {
-  .mentors-photo {
-    margin-left: 0;
-    margin-right: 0;
-    align-items: flex-start;
-  }
 }
 
 .mentors-content-title {
