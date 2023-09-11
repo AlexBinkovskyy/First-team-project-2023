@@ -70,11 +70,13 @@
 }
 
 /*-----------------------------------*/
+
 .hero-statistic {
     display: flex;
     gap: 40px;
     font-size: 16px;
 }
+{}
 
 @media screen and (max-width: 767px) {
     .hero-statistic {
