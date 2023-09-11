@@ -3,7 +3,6 @@
 .hero-container {}
 
 .hero-wrapper {
-
     padding: 50px;
     padding-top: 80px;
     background-color: var(--grey);
@@ -11,6 +10,10 @@
 }
 .hero-section{
   padding-top: 160px;
+}
+
+.hero-section {
+    padding-top: 160px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -65,20 +68,6 @@
     font-style: italic;
 }
 
-@media screen and (min-width: 768px) {
-    .hero-title-akcent-text {
-        font-size: 60px;
-        line-height: 64px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .hero-title-akcent-text {
-        font-size: 64px;
-        line-height: 68px;
-    }
-}
-
 .hero-desc {
     max-width: 418px;
 }
@@ -92,7 +81,7 @@
 
 @media screen and (max-width: 767px) {
     .hero-statistic {
-    font-size: 14px;
+        font-size: 14px;
     }
 }
 
@@ -117,9 +106,7 @@
     }
 }
 
-.hero-students-img-part {
-    
-}
+.hero-students-img-part {}
 
 .hero-students-img {}
 
@@ -195,18 +182,59 @@
         font-size: 16px;
     }
 }
+
 @media screen and (min-width: 768px) {
     .reviews-number {
         font-size: 20px;
     }
 }
+
 /*-----------------------------------*/
 .hero-image {
     flex-grow: 1;
     margin-bottom: -50px;
+    background-image: url(../img/hero-mobile-ginger@1x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 259px;
+
 }
 
-.hero-image-photo {
-    margin: 0 auto;
-    height: 100%;
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-image {
+        background-image: url(../img/hero-mobile-ginger@2x.png);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-image {
+        background-image: url(../img/hero-tablet-ginger@1x.png);
+        min-height: 393px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-image {
+            background-image: url(../img/hero-tablet-ginger@2x.png);
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-image {
+        background-image: url(../img/hero-desktop-ginger@1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-image {
+            background-image: url(../img/hero-desktop-ginger@2x.png);
+        }
+    }
 }
