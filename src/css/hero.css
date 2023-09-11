@@ -87,7 +87,7 @@
     font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .hero-statistic {
     font-size: 14px;
     }
@@ -102,9 +102,15 @@
 /*-----------------------------------*/
 .hero-students {}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .hero-students {
         display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-students {
+        display: flex;
     }
 }
 
@@ -114,7 +120,7 @@
 
 .hero-students-img {}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .hero-students-img {
         height: 44px;
     }
@@ -173,9 +179,15 @@
     margin-bottom: 8px;
 }
 
+@media screen and (max-width: 767px) {
+    .reviews-text {
+        font-size: 14px;
+    }
+}
+
 .reviews-number {}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .reviews-number {
         font-size: 16px;
     }
