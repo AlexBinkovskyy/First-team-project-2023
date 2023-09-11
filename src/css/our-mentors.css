@@ -20,7 +20,6 @@
 }
 
 .mentors-title {
-  color: var(--white);
   margin-bottom: 40px;
 }
 
@@ -51,7 +50,6 @@
   .mentors-list {
     max-width: max-content;
     justify-content: center;
-    margin: 0 auto;
     gap: 92px;
   }
 }
@@ -85,13 +83,13 @@
 
 @media only screen and (min-width: 768px) {
   .mentors-photo {
-    margin: 0 0 16px 0;
+    margin-left: 0;
+    margin-right: 0;
     align-items: flex-start;
   }
 }
 
 .mentors-content-title {
-  color: var(--white);
   margin-bottom: 4px;
 }
 

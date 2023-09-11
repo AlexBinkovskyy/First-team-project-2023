@@ -1,13 +1,11 @@
+.reviews.container {
+  padding-bottom: 80px;
+}
 .reviews-list {
   display: flex;
   gap: 20px;
 }
 /* Phone screen */
-.container {
-  min-width: 320px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
 /* title */
 .reviews-title {
@@ -80,7 +78,7 @@
 
 /* star rating */
 .empty {
-  fill: #bea69e;
+  fill: var(--brown-text);
   width: 16px;
   height: 16px;
 }
@@ -113,20 +111,14 @@
 
 /**
   |============================
-  | --------------------------------------------------------------------
+  | Media
   |============================
 */
-@media only screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
+  .reviews.container {
+    padding-bottom: 100px;
   }
 
   .reviews-title {
@@ -184,9 +176,8 @@
 }
 /* Laptop screen */
 @media only screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0 100px;
+  .reviews.container {
+    padding-bottom: 150px;
   }
 
   .testimonial-box {
@@ -204,8 +195,8 @@
 }
 /* Desktop screen */
 @media only screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
+  .reviews.container {
+    padding-bottom: 150px;
   }
 
   .testimonial-box {

@@ -8,6 +8,9 @@
     background-color: var(--grey);
     border-radius: 30px;
 }
+.hero-section{
+  padding-top: 160px;
+}
 
 .hero-section {
     padding-top: 160px;
