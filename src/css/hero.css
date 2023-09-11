@@ -42,8 +42,38 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title {
+        font-size: 64px;
+        line-height: 68px;
+    }
+}
+
 .hero-title-akcent-text {
     color: var(--brown-text);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title-akcent-text {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title-akcent-text {
+        font-size: 64px;
+        line-height: 68px;
+    }
 }
 
 .hero-desc {
@@ -55,6 +85,12 @@
     display: flex;
     gap: 40px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-statistic {
+    font-size: 14px;
+    }
 }
 
 .hero-reviews,
@@ -78,11 +114,24 @@
 
 .hero-students-img {}
 
+@media screen and (max-width: 768px) {
+    .hero-students-img {
+        height: 44px;
+    }
+}
+
 .hero-students-text-part {}
 
 .hero-students-text {
     max-width: 82px;
     margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-students-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
 
 .hero-students-icon {
@@ -103,6 +152,13 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+    .hero-reviews-img-part {
+        width: 44px;
+        height: 44px;
+    }
+}
+
 .reviews-icon {
     height: 20px;
     min-width: 20px;
@@ -119,6 +175,16 @@
 
 .reviews-number {}
 
+@media screen and (max-width: 768px) {
+    .reviews-number {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .reviews-number {
+        font-size: 20px;
+    }
+}
 /*-----------------------------------*/
 .hero-image {
     flex-grow: 1;
