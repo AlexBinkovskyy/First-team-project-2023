@@ -40,9 +40,8 @@
     align-items: center;
     max-width: 474px;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    row-gap: 100px;
+    margin: 0 auto;
+    row-gap: 92px;
   }
 }
 
