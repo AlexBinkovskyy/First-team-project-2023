@@ -156,6 +156,7 @@
   color: var(--brown-active);
   background-color: transparent;
 }
+
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘ >>
 */
@@ -223,7 +224,6 @@
 .header-sign-up-button {
   width: 186px;
 }
-
 @media screen and (min-width: 0px) {
   .header-sign-up-button {
     display: none;
