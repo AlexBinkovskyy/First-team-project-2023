@@ -3,22 +3,43 @@
 .hero-container {}
 
 .hero-wrapper {
-    padding: 50px;
-    padding-top: 80px;
+    padding: 20px;
+    padding-top: 40px;
     background-color: var(--grey);
     border-radius: 30px;
 }
-.hero-section{
-  padding-top: 160px;
-}
 
-.hero-section {
-    padding-top: 160px;
+@media screen and (min-width: 768px) {
+    .hero-wrapper {
+        padding: 32px;
+        padding-top: 64px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-wrapper {
+        padding: 50px;
+        padding-top: 80px;
         display: flex;
+    }
+}
+
+.hero-section{
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section {
+    padding-top: 160px;
+    padding-bottom: 150px;
     }
 }
 
@@ -77,12 +98,13 @@
 .hero-statistic {
     display: flex;
     gap: 40px;
-    font-size: 16px;
+    font-size: 14px;
+    
 }
 
 @media screen and (max-width: 767px) {
     .hero-statistic {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -193,14 +215,25 @@
 /*-----------------------------------*/
 .hero-image {
     flex-grow: 1;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
     background-image: url(../img/hero-mobile-ginger@1x.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     min-height: 259px;
 
+}
+
+@media screen and (min-width: 768px) {
+    .hero-image {
+    margin-bottom: -32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-image {
+    margin-bottom: -50px;
+    }
 }
 
 @media (min-device-pixel-ratio: 2),
