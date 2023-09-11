@@ -8,6 +8,7 @@
   transform: translateX(200vw);
   transition: transform var( --transition-settings);
   z-index: 1001;
+
 }
 .menu-container {
   width: 60vw;
@@ -16,10 +17,10 @@
 
   padding: 20px 20px 0 20px;  
   margin-left: auto;
-
   display: flex;
   flex-direction: column;
   background-color: var(--brown-text);  
+
 }
 
 /* @media (min-device-pixel-ratio: 2),
