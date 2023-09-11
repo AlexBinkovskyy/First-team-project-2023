@@ -94,7 +94,6 @@ p {
 button {
   display: block;
   padding: 0;
-
 }
 
 .container {
@@ -131,7 +130,9 @@ button {
 
 .header-hero-bckgrnd {
   background-image: url(../img/header-hero-bg-mobile@1x.png);
-  background-size: contain;
+  min-width: 320px;
+  margin: 0 auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -147,6 +148,7 @@ button {
 @media only screen and (min-width: 768px) {
   .header-hero-bckgrnd {
     background-image: url(../img/header-hero-bg-tablet@1x.png);
+    width: 768px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -160,6 +162,7 @@ button {
 @media only screen and (min-width: 1280px) {
   .header-hero-bckgrnd {
     background-image: url(../img/header-hero-bg-desktop1280@1x.png);
+    width: 1280px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -173,6 +176,7 @@ button {
 @media only screen and (min-width: 1440px) {
   .header-hero-bckgrnd {
     background-image: url(../img/header-hero-bg-desktop1440@1x.png);
+    width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

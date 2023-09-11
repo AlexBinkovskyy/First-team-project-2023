@@ -9,6 +9,9 @@
     background-color: var(--grey);
     border-radius: 30px;
 }
+.hero-section{
+  padding-top: 160px;
+}
 
 @media screen and (min-width: 1280px) {
     .hero-wrapper {
