@@ -7,9 +7,8 @@ id="sign-up"
 .main-name {
   color: #fff;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
+  line-height: 32px;
   letter-spacing: -1.12px;
   margin-bottom: 20px;
   width: 155px;
@@ -30,7 +29,7 @@ id="sign-up"
 
 .courses li::before {
   content: counter(my-counter);
-  margin-right: 5px;
+  /* margin-right: 5px; */
   content: '0' counter(my-counter);
 }
 .course-main-p {
@@ -52,7 +51,6 @@ id="sign-up"
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
   margin-bottom: 20px;
-  flex-shrink: 0;
   gap: 20px;
   position: relative;
 }
@@ -73,8 +71,9 @@ id="sign-up"
   text-align: left;
 }
 .list-course-name-last {
-  width: 275px;
+  width: 268px;
 }
+
 .list-course-p {
   width: 279px;
   height: 54px;
@@ -87,14 +86,19 @@ id="sign-up"
 @media only screen and (max-width: 320px) {
   .list-course-p {
     width: auto;
+    height: auto;
+    margin-right: 28px;
+  }
+  .list-course-name {
+    width: auto;
+  }
+  .list-course-name-last {
+    width: auto;
   }
 }
-
-.anchor {
-  fill: #777777;
+.link-course {
+  fill: transparent;
   position: absolute;
-  /* left: 222px;
-  top: 19px; */
   background-color: #1d1d1d;
   border-radius: 50%;
   cursor: pointer;
@@ -103,8 +107,30 @@ id="sign-up"
   padding: 6px;
   right: 28px;
   top: 28px;
-
-  /* display: none; */
+  stroke-width: 0;
+  stroke: #777777;
+}
+.link-course:hover,
+.link-course:focus {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* .anchor {
+   fill: #777777;
+  position: absolute;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  padding: 6px;
+  right: 28px;
+  top: 28px; 
+} */
+.link-course:hover .anchor,
+.link-course:focus .anchor {
+  stroke: #fff;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .main-name {
