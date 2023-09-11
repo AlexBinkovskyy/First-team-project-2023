@@ -16,8 +16,8 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/First-team-project-2023/assets/index-07f14d30.js"></script>
-    <link rel="stylesheet" href="/First-team-project-2023/assets/index-1d896bfe.css">
+    <script type="module" crossorigin src="/First-team-project-2023/assets/index-7480414a.js"></script>
+    <link rel="stylesheet" href="/First-team-project-2023/assets/index-ba54e5df.css">
   </head>
   <body>
     <section class="header-hero-bckgrnd">
@@ -341,15 +341,16 @@
   </div>
 </section>
 
-    <div class="signup container" id="sign-up">
-  <div class="signup-box">
-    <h2 class="signup-title">Sign <span class="signup-title-up">Up</span></h2>
-    <p class="signup-text">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-    <form class="signup-form" name="signup-form">
-      <div class="signup-form-item">
+    <section class="signup" id="sign-up">
+  <div class="container">
+    <div class="signup-box">
+      <h2 class="signup-title">Sign <span class="signup-title-up">Up</span></h2>
+      <p class="signup-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="signup-form" name="signup-form">
+        <label class="signup-form-label" for="user-name"></label>
         <input
           class="signup-form-input"
           type="text"
@@ -359,8 +360,8 @@
           minlength="3"
           placeholder="Enter your name"
         />
-      </div>
-      <div class="signup-form-item">
+
+        <label class="signup-form-label" for="email"></label>
         <input
           class="signup-form-input"
           type="text"
@@ -369,8 +370,8 @@
           required
           placeholder="Enter your email"
         />
-      </div>
-      <div class="signup-form-item">
+
+        <label class="signup-form-label" for="user-comment"></label>
         <textarea
           class="signup-message"
           name="user-comment"
@@ -378,36 +379,37 @@
           rows="5"
           placeholder="Message"
         ></textarea>
+
+        <button class="submit-btn" type="submit">Send</button>
+      </form>
+      <p class="signup-policy">
+        By clicking on &#8220;Send&#8221; button, you agree to our
+        <a class="signup-policy-link" href="">Privacy Policy</a>,<br />
+        and allow Promodo to use this information for marketing purposes.
+      </p>
+    </div>
+    <div class="signup-pics">
+      <div class="signup-pics-left">
+        <img
+          class="signup-lense"
+          src="/First-team-project-2023/assets/sign-up-lense@1x-e7547d22.png"
+          alt="camera lense"
+          srcset="/First-team-project-2023/assets/sign-up-lense@1x-e7547d22.png 1x, /First-team-project-2023/assets/sign-up-lense@2x-c810d528.png 2x"
+          width="150"
+          height="142"
+        />
       </div>
-      <button class="submit-btn" type="submit">Send</button>
-    </form>
-    <p class="signup-policy">
-      By clicking on &#8220;Send&#8221; button, you agree to our
-      <a class="signup-policy-link" href="">Privacy Policy</a>,<br />
-      and allow Promodo to use this information for marketing purposes.
-    </p>
-  </div>
-  <div class="signup-pics">
-    <div class="signup-pics-left">
-      <img
-        class="signup-lense"
-        src="/First-team-project-2023/assets/sign-up-lense@1x-e7547d22.png"
-        alt="camera lense"
-        srcset="/First-team-project-2023/assets/sign-up-lense@1x-e7547d22.png 1x, /First-team-project-2023/assets/sign-up-lense@2x-c810d528.png 2x"
-        width="150"
-        height="142"
-      />
-    </div>
-    <div class="signup-pics-right">
-      <img
-        src="/First-team-project-2023/assets/sign-up-camera@1x-386e86fa.png"
-        alt="black camera"
-        srcset="/First-team-project-2023/assets/sign-up-camera@1x-386e86fa.png 1x, /First-team-project-2023/assets/sign-up-camera@2x-7659d9f6.png 2x"
-        width="254"
-      />
+      <div class="signup-pics-right">
+        <img
+          src="/First-team-project-2023/assets/sign-up-camera@1x-386e86fa.png"
+          alt="black camera"
+          srcset="/First-team-project-2023/assets/sign-up-camera@1x-386e86fa.png 1x, /First-team-project-2023/assets/sign-up-camera@2x-7659d9f6.png 2x"
+          width="254"
+        />
+      </div>
     </div>
   </div>
-</div>
+</section>
 
     <div class="reviews container" id="reviews">
   <h2 class="reviews-title">Reviews</h2>
