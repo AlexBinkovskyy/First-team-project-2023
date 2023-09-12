@@ -102,6 +102,12 @@
     
 }
 
+@media screen and (max-width: 345px) {
+    .hero-statistic {
+        gap: 20px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .hero-statistic {
         font-size: 16px;
@@ -137,12 +143,6 @@
     .hero-students-img {
         width: auto;
         height: 44px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .hero-students-img {
-        height: 54px;
     }
 }
 
