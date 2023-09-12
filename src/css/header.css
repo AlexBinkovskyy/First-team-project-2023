@@ -58,7 +58,7 @@
   width: 100%;
   z-index: 5;
 }
-.header-fixed{
+.header-fixed {
   position: fixed;
 }
 
@@ -145,8 +145,14 @@
   }
 }
 
-.header-nav-list-item {
+/* .header-nav-list-link {
+  transition: font-size 0.18s ease;
 }
+
+.header-nav-list-link:focus-within:hover {
+  font-size: 16px;
+} */
+
 .header-nav-list-link {
   font-size: 14px;
   text-transform: uppercase;
