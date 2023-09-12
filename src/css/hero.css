@@ -101,7 +101,14 @@
   display: flex;
   gap: 40px;
   font-size: 14px;
+  transition: transform 0.18s ease-in-out; 
 }
+
+.hero-statistic:hover {
+    transform: scale(1.05);
+}
+
+
 
 @media screen and (max-width: 345px) {
     .hero-statistic {
@@ -123,6 +130,11 @@
 
 /*-----------------------------------*/
 .hero-students {
+  transition: color 0.18s ease-in-out; 
+}
+
+.hero-students-text:hover {
+  color: var(--brown-text);
 }
 
 @media screen and (max-width: 767px) {
@@ -165,6 +177,11 @@
 .hero-students-icon {
   fill: var(--white);
   width: 18px;
+  transition: fill 0.18s ease-in-out;
+}
+
+.hero-students-icon:hover {
+  fill: var(--brown-active);
 }
 
 /*-----------------------------------*/
@@ -193,6 +210,16 @@
   min-width: 20px;
   fill: transparent;
   stroke: var(--black);
+  transition: fill 0.18s ease-in-out;
+}
+
+.hero-reviews-img-part:hover .reviews-icon {
+  fill: var(--brown-active);
+  stroke: var(--brown-active);
+}
+
+.hero-reviews-img-part:hover {
+  background-color: var(--grey);
 }
 
 .hero-reviews-text-part {
@@ -233,6 +260,12 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 259px;
+  transition: transform 0.25s linear;
+}
+
+.hero-image:hover {
+  transform-origin: center bottom;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
