@@ -1,12 +1,20 @@
-.footer-container {
-}
+/* .footer-container {
+} */
 footer {
     padding-top: 40px;
     padding-bottom: 20px;
-    background-image: url(../img/graphic-phone.png);
+    background-image: url(../img/graphic-dekstop-1440px.png);
     background-size: cover;
     border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    footer {
+      background-image: 
+        url(../img/graphic-desktop-1440px2x.png);
+    }
+    }
 /* ================ */
 .footer-top-part {
     margin-bottom: 50px;
@@ -26,33 +34,33 @@ footer {
     margin-bottom: 25px;
 }
 /* ================ */
-.footer-address {
+/* .footer-address {
 }
 .footer-address-list {
-}
+} */
 .footer-address-list-item {
     font-style: normal;
 }
 .footer-address-list-item:not(:last-child) {
     margin-bottom: 10px;
 }
-.footer-address-list-link {
-}
+/* .footer-address-list-link {
+} */
 /* ================ */
 .footer-social, .footer-nav {
     text-transform: uppercase;
 }
-.footer-social-list {
+/* .footer-social-list {
 }
 .footer-social-list-item {
-}
+} */
 .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
     margin-bottom: 20px;
 }
-.footer-social-list-link {
-}
+/* .footer-social-list-link {
+} */
 /* ================ */
-.footer-nav {
+/* .footer-nav {
 
 }
 .footer-nav-list {
@@ -60,10 +68,10 @@ footer {
 .footer-nav-list-item {
 }
 .footer-nav-list-link {
-}
+} */
 /* ================ */
-.footer-form-box {
-}
+/* .footer-form-box {
+} */
 .foot-form {
     display: flex;
     gap: 8px;
@@ -96,11 +104,22 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.footer-privacy {
+/* .footer-privacy {
 }
 .footer-frame {
-}
+} */
 @media only screen and (min-width: 375px) {
+    footer {
+        background-image: url(../img/graphic-phone.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    footer {
+      background-image: 
+        url(../img/graphic-phone2x.png);
+    }
+    }
     .footer-our-info {
         font-size: 14px;
     }
@@ -119,6 +138,18 @@ footer {
     
 }
 @media only screen and (min-width:768px) {
+    footer {
+        background-image: url(../img/graphic-tablet.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    footer {
+      background-image: 
+        url(../img/graphic-tablet2x.png);
+    }
+    
+  }
     .footer-top-part {
     display: flex;
     }
@@ -130,11 +161,61 @@ footer {
         margin-right: 59px;
         padding: 0;
     }
-    .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
-         margin-bottom: 14px;
-    }
     .foot-input { 
         width: 178px;
         flex-grow: 1;
     }
+    .footer-privacy {
+        margin-right: 399px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    footer {
+        background-image: url(../img/graphic-dekstop.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    footer {
+      background-image: 
+        url(../img/graphic-dekstop2х.png);
+    }
+    
+  }
+  .footer-navigation-box {
+    gap: 50px;
+    margin-right: 135px;
+  }
+  .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .foot-input { 
+    width: 216px;
+  }
+  .footer-privacy {
+    margin-right: 773px;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+    footer {
+        background-image: url(../img/graphic-desktop-1440px.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    footer {
+      background-image: 
+        url(../img/graphic-desktop-1440px2x.png);
+    }
+    
+  }
+  .footer-navigation-box {
+    gap: 100px;
+    margin-right: 193px;
+  }
+  .footer-privacy {
+    margin-right: 935px;
+}
 }
