@@ -50,13 +50,16 @@
 */
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 
   padding: 20px 0;
   width: 100%;
   z-index: 5;
+}
+.header-fixed{
+  position: fixed;
 }
 
 .show-header-bg {
