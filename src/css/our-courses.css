@@ -75,9 +75,10 @@ id="sign-up"
 }
 
 .list-course-p {
-  width: 279px;
+  /* width: 279px; */
   line-height: 18px;
   color: rgba(255, 255, 255, 0.5);
+  padding-right: 28px;
   /* height: 54px;
   font-size: 14px;
   letter-spacing: -0.28px;
@@ -87,7 +88,7 @@ id="sign-up"
   .list-course-p {
     width: auto;
     height: auto;
-    margin-right: 28px;
+    /* margin-right: 28px; */
   }
   .list-course-name {
     width: auto;
