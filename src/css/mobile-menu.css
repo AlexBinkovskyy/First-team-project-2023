@@ -53,6 +53,11 @@
   }
 }
 
+.menu-container .list-item:not(:last-child) {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .mobile-close-btn {
   position: absolute;
   top: 20px;
@@ -61,11 +66,6 @@
   background-color: transparent;
   border: none;
   margin-left: auto;
-}
-
-.menu-container .list-item:not(:last-child) {
-  text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 .menu-container .link {
