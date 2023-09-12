@@ -111,6 +111,13 @@ id="sign-up"
   letter-spacing: -0.28px;
   font-weight: 400; */
 }
+
+.course-list-i:hover .list-course-p {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: var(--white);
+}
+
 @media only screen and (max-width: 320px) {
   .list-course-p {
     width: auto;
@@ -124,6 +131,7 @@ id="sign-up"
     width: auto;
   }
 }
+
 .link-course {
   fill: transparent;
   position: absolute;
