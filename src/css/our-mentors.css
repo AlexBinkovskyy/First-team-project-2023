@@ -38,11 +38,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 476px;
-    justify-content: flex-start;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 92px 100px;
+    max-width: 474px;
+    justify-content: space-between;
+    margin: 0 auto;
+    row-gap: 92px;
   }
 }
 
@@ -81,14 +80,6 @@
   margin: 0 auto 16px;
 }
 
-@media only screen and (min-width: 768px) {
-  .mentors-photo {
-    margin-left: 0;
-    margin-right: 0;
-    align-items: flex-start;
-  }
-}
-
 .mentors-content-title {
   margin-bottom: 4px;
 }
@@ -110,5 +101,24 @@
   .mentors-content-text {
     font-size: 14px;
     line-height: 1.29;
+  }
+}
+
+.mentors-cards {
+  transition: transform 0.18s ease-in-out;
+}
+.mentors-cards:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-cards:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-cards:hover {
+    transform: scale(1.05);
   }
 }
