@@ -103,3 +103,23 @@
     line-height: 1.29;
   }
 }
+
+.mentors-cards {
+  transition-property: transform;
+}
+.mentors-cards:hover {
+  transform: scale(1.1);
+  transition-duration: 1000ms;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-cards:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-cards:hover {
+    transform: scale(1.3);
+  }
+}
