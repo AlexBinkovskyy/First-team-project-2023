@@ -105,20 +105,20 @@
 }
 
 .mentors-cards {
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.18s ease-in-out;
 }
 .mentors-cards:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 768px) {
   .mentors-cards:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .mentors-cards:hover {
-    transform: scale(1.3);
+    transform: scale(1.05);
   }
 }
