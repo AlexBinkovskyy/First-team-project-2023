@@ -1,16 +1,20 @@
-.signup .container {
+.signup {
   padding-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
-  .signup .container {
+  .signup {
     padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .signup {
+    padding-bottom: 150px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .signup .container {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 150px;
   }
 }
 
@@ -118,15 +122,10 @@
   }
 }
 
-.submit-btn:active {
+.submit-btn:hover,
+.submit-btn:focus {
   color: var(--brown-active);
   background-color: var(--grey);
-}
-@media (hover: hover) {
-  .submit-btn:active {
-    color: var(--brown-active);
-    background-color: var(--grey);
-  }
 }
 
 .signup-policy {
