@@ -44,7 +44,9 @@ id="sign-up"
   height: 398px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  opacity: 1;
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  background-position: center;
   padding-left: 28px;
   padding-top: 28px;
   font-size: 14px;
@@ -53,10 +55,35 @@ id="sign-up"
   margin-bottom: 20px;
   gap: 20px;
   position: relative;
+  transition: transform 0.3s ease-in-out;
 }
+
 .course-list-i:last-child {
   margin-bottom: 80px;
 }
+
+.course-list-i:first-child:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/basics.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course-list-i:nth-child(2):hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course-list-i:last-child:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content-cards {
   padding-top: 42px;
 }
