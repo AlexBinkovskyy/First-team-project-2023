@@ -3,7 +3,7 @@
 footer {
     padding-top: 40px;
     padding-bottom: 20px;
-    background-image: url(../img/graphic-dekstop-1440px.png);
+    background-image: url(../img/graphic-phone.png);
     background-size: cover;
     border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
@@ -12,7 +12,7 @@ footer {
     screen and (min-resolution: 2dppx) {
     footer {
       background-image: 
-        url(../img/graphic-desktop-1440px2x.png);
+        url(../img/graphic-phone2x.png);
     }
     }
 /* ================ */
@@ -22,12 +22,14 @@ footer {
 }
 .footer-navigation-box {
     display: flex;
-    gap: 100px;
-    margin-right: 191px;
+    margin: 40px 0 75px 0;
+    gap: 40px;
+    font-size: 14px;
 }
 
 .footer-our-info {
     margin-right: auto;
+    font-size: 14px;
 }
 .footer-logo {
     fill: var(--white);
@@ -44,31 +46,51 @@ footer {
 .footer-address-list-item:not(:last-child) {
     margin-bottom: 10px;
 }
-/* .footer-address-list-link {
-} */
+.footer-address-list-link {
+        transition: color var(--transition-settings);
+      }
+      .footer-address-list-link:hover,
+      .footer-address-list-link:focus {
+        color: var(--brown-active);
+        background-color: transparent;
+      }
 /* ================ */
 .footer-social, .footer-nav {
     text-transform: uppercase;
 }
 /* .footer-social-list {
-}
-.footer-social-list-item {
 } */
+
 .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
-/* .footer-social-list-link {
-} */
+
+.footer-social-list-link {
+        transition: color var(--transition-settings);
+      }
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+        color: var(--brown-active);
+        background-color: transparent;
+      }
+
 /* ================ */
 /* .footer-nav {
 
 }
 .footer-nav-list {
-}
-.footer-nav-list-item {
-}
-.footer-nav-list-link {
 } */
+
+  
+
+.footer-nav-list-link {
+        transition: color var(--transition-settings);
+      }
+    .footer-nav-list-link:hover,
+    .footer-nav-list-link:focus {
+        color: var(--brown-active);
+        background-color: transparent;
+      }
 /* ================ */
 /* .footer-form-box {
 } */
@@ -77,17 +99,18 @@ footer {
     gap: 8px;
 }
 .foot-input {
-        width: 216px;
+        width: 267px;
         height: 60px;
         background-color: var(--white); 
         border: 1px solid var(--white);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 12px;
         padding: 0 18px;
+        flex-grow: 1;
 }
     
-.foot-input:hover,
-.foot-input:focus {
+.foot-input:hover:active,
+.foot-input:focus:active {
         border: 1px solid rgba(255, 255, 255, 0.50);
     
 }
@@ -103,11 +126,16 @@ footer {
 .footer-paragraphy {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
 }
-/* .footer-privacy {
+.footer-privacy {
+    font-size: 12px;
+    width: 147px;
 }
 .footer-frame {
-} */
+    font-size: 12px;
+    width: 116px;
+}
 @media only screen and (min-width: 375px) {
     footer {
         background-image: url(../img/graphic-phone.png);
@@ -120,21 +148,20 @@ footer {
         url(../img/graphic-phone2x.png);
     }
     }
-    .footer-our-info {
+    /* .footer-our-info {
         font-size: 14px;
-    }
-    .footer-navigation-box {
+    } */
+    /* .footer-navigation-box {
         margin: 40px 0 75px 0;
         gap: 40px;
-        font-size: 14px;
-    }
-    .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
+    } */
+    /* .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
          margin-bottom: 14px;
-    }
-    .foot-input { 
+    } */
+    /* .foot-input { 
         width: 267px;
         flex-grow: 1;
-    }
+    } */
     
 }
 @media only screen and (min-width:768px) {
@@ -167,6 +194,12 @@ footer {
     }
     .footer-privacy {
         margin-right: 399px;
+        font-size: 14px;
+        width: 171px;
+    }
+    .footer-frame {
+        font-size: 14px;
+        width: 134px;
     }
 }
 
@@ -215,7 +248,13 @@ footer {
     gap: 100px;
     margin-right: 193px;
   }
+  .foot-input {
+    width: 216px;
+  }
   .footer-privacy {
     margin-right: 935px;
+  }
+  .footer-social-list-item:not(:last-child), .footer-nav-list-item:not(:last-child) {
+    margin-bottom: 20px;
 }
 }
