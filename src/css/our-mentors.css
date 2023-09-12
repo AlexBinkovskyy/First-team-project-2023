@@ -105,11 +105,10 @@
 }
 
 .mentors-cards {
-  transition-property: transform;
+  transition: transform 0.3s ease-in-out;
 }
 .mentors-cards:hover {
   transform: scale(1.1);
-  transition-duration: 1000ms;
 }
 
 @media only screen and (min-width: 768px) {
