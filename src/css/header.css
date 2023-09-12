@@ -50,13 +50,16 @@
 */
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 
   padding: 20px 0;
   width: 100%;
   z-index: 5;
+}
+.header-fixed {
+  position: fixed;
 }
 
 .show-header-bg {
@@ -142,8 +145,14 @@
   }
 }
 
-.header-nav-list-item {
+/* .header-nav-list-link {
+  transition: font-size 0.18s ease;
 }
+
+.header-nav-list-link:focus-within:hover {
+  font-size: 16px;
+} */
+
 .header-nav-list-link {
   font-size: 14px;
   text-transform: uppercase;
