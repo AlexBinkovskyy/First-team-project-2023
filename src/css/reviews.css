@@ -4,7 +4,7 @@
 }
 /* Phone screen */
 
-.reviews.container {
+.reviews-section {
   padding-bottom: 80px;
 }
 
@@ -23,7 +23,6 @@
 
 .testimonial-box:hover {
   transform: scale(1.05);
-
 }
 
 /* profile */
@@ -92,7 +91,7 @@
 }
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
-  .reviews.container {
+  .reviews-section {
     padding-bottom: 100px;
   }
 
@@ -148,7 +147,7 @@
 /* Laptop screen */
 
 @media only screen and (min-width: 1280px) {
-  .reviews.container {
+  .reviews-section {
     padding-bottom: 150px;
   }
 
@@ -164,10 +163,6 @@
 }
 /* Desktop screen */
 @media only screen and (min-width: 1440px) {
-  .reviews.container {
-    padding-bottom: 150px;
-  }
-
   .testimonial-box {
     width: 610px;
     height: 196px;
