@@ -103,6 +103,12 @@
   font-size: 14px;
 }
 
+@media screen and (max-width: 345px) {
+    .hero-statistic {
+        gap: 20px;
+    }
+}
+
 @media screen and (max-width: 767px) {
   .hero-statistic {
     font-size: 16px;
@@ -143,8 +149,6 @@
     }
 } */
 
-.hero-students-text-part {
-}
 
 .hero-students-text {
   max-width: 82px;
