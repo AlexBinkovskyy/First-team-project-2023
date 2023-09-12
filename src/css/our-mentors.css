@@ -1,14 +1,14 @@
-.mentors-container.container {
+.mentors-section {
   padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-  .mentors-container.container {
+  .mentors-section {
     padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .mentors-container.container {
+  .mentors-section {
     padding-bottom: 150px;
   }
 }
@@ -105,20 +105,21 @@
 }
 
 .mentors-cards {
-  transition: transform 0.18s ease-in-out;
+  transition-property: transform;
+  transition: transform 500ms ease-in-out;
 }
 .mentors-cards:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 768px) {
   .mentors-cards:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .mentors-cards:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
   }
 }
