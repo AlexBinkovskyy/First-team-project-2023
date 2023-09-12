@@ -1,3 +1,7 @@
+.advert {
+  width: 100%;
+  margin: 0 auto;
+}
 .marquee {
   overflow: hidden;
   text-transform: uppercase;
@@ -41,6 +45,9 @@
   letter-spacing: -0.56px;
 }
 @media only screen and (min-width: 768px) {
+  .advert {
+    width: 768px;
+  }
   .marquee__line {
     font-size: 40px;
     line-height: 50px;
@@ -54,6 +61,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .advert {
+    width: 1280px;
+  }
   .marquee {
     padding-bottom: 150px;
   }
@@ -70,4 +80,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .advert {
+    width: 1440px;
+  }
 }
