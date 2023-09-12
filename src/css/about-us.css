@@ -19,7 +19,7 @@
 
 @media only screen and (min-width: 768px) {
   .about-title {
-    letter-spacing: -1.92;
+    letter-spacing: -1.92em;
     margin-bottom: 50px;
   }
 }
