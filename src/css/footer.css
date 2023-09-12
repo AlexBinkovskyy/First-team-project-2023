@@ -244,7 +244,7 @@ footer {
 @media only screen and (min-width: 1440px) {
   footer {
     background-image: url(../img/graphic-desktop-1440px.png);
-  }
+          }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -252,6 +252,7 @@ footer {
       background-image: url(../img/graphic-desktop-1440px2x.png);
     }
   }
+}
   .footer-navigation-box {
     gap: 100px;
     margin-right: 193px;
