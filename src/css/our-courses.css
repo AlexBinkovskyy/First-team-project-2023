@@ -33,11 +33,14 @@ id="sign-up"
   content: '0' counter(my-counter);
 }
 .course-main-p {
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   line-height: 18px;
   /* letter-spacing: -0.28px;
   font-size: 14px;
   font-weight: 400; */
+}
+.before-course {
+  padding-bottom: 40px;
 }
 .course-list-i {
   list-style-position: inside;
@@ -59,9 +62,11 @@ id="sign-up"
 }
 
 .course-list-i:last-child {
+  margin-bottom: 0px;
+}
+.course {
   margin-bottom: 80px;
 }
-
 .course-list-i:first-child:hover {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -166,6 +171,7 @@ id="sign-up"
   }
   .before-course {
     display: flex;
+    padding-bottom: 50px;
   }
   .course-main-p {
     font-size: 16px;
@@ -207,7 +213,7 @@ id="sign-up"
 @media only screen and (min-width: 1280px) {
   .main-name {
     margin-right: 410px;
-    margin-bottom: 76px;
+    /* margin-bottom: 76px; */
   }
   .course-main-p {
     width: 405px;
