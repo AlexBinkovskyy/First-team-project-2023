@@ -116,12 +116,25 @@ footer {
 }
 
 .form-button {
-      background-color: var(--grey);
-      padding: 18px;
-      color: var(--white);
-      border-radius: 12px;
-      border: transparent;
-    }
+        background-color: var(--grey);
+        padding: 18px;
+        color: var(--white);
+        border-radius: 12px;
+        border: transparent;
+        transition: var(--transition-settings);
+        transition-duration: 0.1s;
+      }
+      .form-button:active {
+        transform: scale(1.1);
+      }
+      .form-button:hover,
+      .form-button:focus {
+        background-color: var(--white);
+        color: var(--grey);
+        transition: var(--transition-settings);
+        transition-duration: 0.1s;
+      }
+
 /* ================ */
 .footer-paragraphy {
   display: flex;
