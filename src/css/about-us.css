@@ -1,16 +1,16 @@
 .about-us {
   padding-bottom: 80px;
 }
- @media only screen and (min-width: 768px) {
-    .about-us {
-      padding-bottom: 100px;
-    }
- }
- @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
+  .about-us {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
   .about-us {
     padding-bottom: 150px;
   }
- }
+}
 
 .about-title {
   margin-bottom: 40px;
@@ -19,12 +19,11 @@
 
 @media only screen and (min-width: 768px) {
   .about-title {
-    letter-spacing: -1.92;
     margin-bottom: 50px;
   }
 }
 .word {
-  color: var( --brown-text);
+  color: var(--brown-text);
 }
 @media only screen and (min-width: 1280px) {
   .about-desktop {
@@ -37,11 +36,18 @@
     column-gap: 50px;
   }
 }
+
 .about-img {
   width: 100%;
   height: 100%;
   margin-bottom: 40px;
+  transition: transform 0.3s ease-out;
+  transform-origin: center bottom;
+  transform: scale(1);
+}
 
+.about-img:hover {
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 768px) {
@@ -88,7 +94,6 @@
 }
 
 .about-text {
-  
   color: var(--white);
 }
 @media only screen and (min-width: 768px) {
@@ -100,7 +105,6 @@
     width: 280px;
     letter-spacing: -0.32px;
   }
-
 }
 @media only screen and (min-width: 1280px) {
   .about-text {
