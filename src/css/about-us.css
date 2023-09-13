@@ -36,10 +36,18 @@
     column-gap: 50px;
   }
 }
+
 .about-img {
   width: 100%;
   height: 100%;
   margin-bottom: 40px;
+  transition: transform 0.3s ease-out;
+  transform-origin: center bottom;
+  transform: scale(1);
+}
+
+.about-img:hover {
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 768px) {

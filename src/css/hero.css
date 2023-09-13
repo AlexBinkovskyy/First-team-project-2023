@@ -101,19 +101,17 @@
   display: flex;
   gap: 40px;
   font-size: 14px;
-  transition: transform 0.18s ease-in-out; 
+  transition: transform 0.18s ease-in-out;
 }
 
 .hero-statistic:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-
-
 @media screen and (max-width: 345px) {
-    .hero-statistic {
-        gap: 20px;
-    }
+  .hero-statistic {
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -130,7 +128,7 @@
 
 /*-----------------------------------*/
 .hero-students {
-  transition: color 0.18s ease-in-out; 
+  transition: color 0.18s ease-in-out;
 }
 
 .hero-students-text:hover {
@@ -160,7 +158,6 @@
         height: 44px;
     }
 } */
-
 
 .hero-students-text {
   max-width: 82px;
@@ -260,24 +257,13 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 259px;
-  transition: transform 0.25s linear;
+  transition: transform 0.3s ease-out;
   transform-origin: center bottom;
   transform: scale(1);
 }
 
 .hero-image:hover {
-  transform-origin: center bottom;
-  transform: scale(1.1);
-}
-
-.hero-image:hover::after {
-  content: "";
-  height: 0;
-  transform-origin: center bottom;
-}
-
-.hero-image:hover::after {
-  transform: scaleY(1);
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 768px) {
