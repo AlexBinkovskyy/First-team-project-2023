@@ -261,11 +261,23 @@
   background-position: center;
   min-height: 259px;
   transition: transform 0.25s linear;
+  transform-origin: center bottom;
+  transform: scale(1);
 }
 
 .hero-image:hover {
   transform-origin: center bottom;
   transform: scale(1.1);
+}
+
+.hero-image:hover::after {
+  content: "";
+  height: 0;
+  transform-origin: center bottom;
+}
+
+.hero-image:hover::after {
+  transform: scaleY(1);
 }
 
 @media screen and (min-width: 768px) {
