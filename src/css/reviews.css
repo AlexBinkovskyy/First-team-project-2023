@@ -150,7 +150,15 @@
   .reviews-section {
     padding-bottom: 150px;
   }
-
+  /* нова фіча */
+  .testimonial-box {
+    transition: 0.6s;
+  }
+  .reviews-list:hover > :not(:hover) {
+    opacity: 0.4;
+    transition: 0.6s;
+  }
+  /* _____________ */
   .testimonial-box {
     width: 530px;
     height: 216px;
